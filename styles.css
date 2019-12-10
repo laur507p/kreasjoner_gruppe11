@@ -135,7 +135,6 @@ nav {
 }
 
 header {
-
     background-color: white;
 }
 
@@ -483,9 +482,10 @@ header {
     background-size: cover;
 }
 
-#haandvaerkere .sectionwrapper {
+#haandvaerker1 .sectionwrapper {
     flex-wrap: wrap-reverse;
 }
+
 
 
 #haandvaerker1 .text {
@@ -493,6 +493,14 @@ header {
 }
 
 #haandvaerker1 .image {
+    flex-basis: 400px;
+}
+
+#haandvaerker2 .text {
+    flex-basis: 400px;
+}
+
+#haandvaerker2 .image {
     flex-basis: 400px;
 }
 
