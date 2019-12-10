@@ -343,18 +343,21 @@ header {
 
 
 #shop {
+    height:10vw;
+    width: 10vw;
 
 }
 
 
 #splash_shop {
-background-image:url(thumbnail_splash.png);
     width: 100vw;
     height: 44.2vw;
     background-size: cover;
     border-color: white;
 
 }
+
+
 
 
 
