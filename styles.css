@@ -16,6 +16,11 @@ html {
     display: flex;
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, .1);
     flex-wrap: wrap;
+}
+
+header img {
+    margin: auto;
+    width: 20vw;
 
 }
 
@@ -109,7 +114,7 @@ nav a {
     text-decoration: none;
     color: black;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding-left: 20px;
     padding-top: 20px;
 
@@ -117,6 +122,14 @@ nav a {
 
 nav a:hover {
     color: #f7c3bb;
+}
+
+nav {
+    margin: 10px 0 10px 0;
+    position: fixed;
+    top: 2vw;
+    left: 20vw;
+    display: inline;
 }
 
 
@@ -423,7 +436,13 @@ nav a:hover {
 /*-------------- #HAANDVAERKERE -----------------*/
 
 
+#splash_haandvaerkere {
+    height: 20vw;
+}
 
+#splash_haandvaerkere img {
+    width: 100%;
+}
 
 
 
