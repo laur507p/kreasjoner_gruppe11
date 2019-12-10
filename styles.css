@@ -12,6 +12,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.sectionwrapper {
+    display: flex;
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, .1);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+header img {
+    margin: auto;
+    width: 20vw;
+
+}
 
 
 
@@ -103,7 +116,7 @@ nav a {
     text-decoration: none;
     color: black;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding-left: 20px;
     padding-top: 20px;
 
@@ -111,6 +124,19 @@ nav a {
 
 nav a:hover {
     color: #f7c3bb;
+}
+
+nav {
+    margin: 10px 0 10px 0;
+    position: fixed;
+    top: 2vw;
+    left: 20vw;
+    display: inline;
+}
+
+header {
+
+    background-color: white;
 }
 
 
@@ -462,7 +488,34 @@ nav a:hover {
 /*-------------- #HAANDVAERKERE -----------------*/
 
 
+#splash_haandvaerker {
+    height: 10vw;
+    width: 100vw;
+}
 
+#image_haandvaerker {
+    background-image: url(billeder/1.jpg);
+    width: 100vw;
+    height: 75vw;
+    background-size: cover;
+}
+
+#haandvaerkere .sectionwrapper {
+    flex-wrap: wrap-reverse;
+}
+
+
+#haandvaerker1 .text {
+    flex-basis: 400px;
+}
+
+#haandvaerker1 .image {
+    flex-basis: 400px;
+}
+
+#haandvaerkere img {
+    width: 100%;
+}
 
 
 
