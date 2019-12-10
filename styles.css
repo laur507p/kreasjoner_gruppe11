@@ -231,20 +231,48 @@ header {
 /*-------------- #FORSIDE -----------------*/
 
 
+#forside p {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
 
+#forside H2 {
 
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: solid black;
+    width: 140px
+}
 
+#forside H1 {
 
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
+#forside H3 {
 
-
-
-
-
-
-
-
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
 
 
