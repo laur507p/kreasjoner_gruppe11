@@ -205,22 +205,67 @@ nav a:hover {
 /*-------------- #FORSIDE -----------------*/
 
 
+#forside p {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+#forside H2 {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: solid black;
+    width: 140px
+}
+
+#forside H1 {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#forside H3 {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+#forside .image1 {
+    border: solid;
+    border-color: #F7DCD3;
+}
 
 
 
+#forside .image2 {
+    border: solid;
+    border-color: #F7C3BB;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+#forside .image3 {
+    border: solid;
+    border-color: #E0DDDD;
+}
 
 
 
