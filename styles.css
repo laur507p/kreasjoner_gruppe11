@@ -340,34 +340,62 @@ nav {
 }
 
 
-#shop .splash_shop{
+#splash_shop {
+background-image:url(thumbnail_splash.png);
+    width: 100vw;
+    height: 44.2vw;
+    background-size: cover;
+    border-color: white;
+
 }
 
 
 
-
-#shop .produkt1{
+#shop .produkt1 {
     display:flex;
+    flex-basis: auto;
+    height: 5vw;
+    width: 5vw;
 
 }
-#shop .produkt2{
+#shop .produkt2 {
      display:flex;
+    flex-basis: auto;
+     height: 5vw;
+    width: 5vw;
+
 
 }
-#shop .produkt3{
+#shop .produkt3 {
      display:flex;
+    flex-basis: auto;
+     height: 5vw;
+    width: 5vw;
+
 
 }
-#shop .produkt4{
+#shop .produkt4 {
      display:flex;
+    flex-basis: auto;
+     height: 5vw;
+    width: 5vw;
+
 
 }
-#shop .produkt5{
+#shop .produkt5 {
      display:flex;
+    flex-basis: auto;
+     height: 5vw;
+    width: 5vw;
+
 
 }
-#shop .produkt6{
+#shop .produkt6 {
      display:flex;
+    flex-basis: auto;
+     height: 5vw;
+    width: 5vw;
+
 
 }
 
@@ -377,17 +405,18 @@ nav {
 #shop .image {
      flex-basis: auto;
     width:10vw;
+    height: 10vw;
 
 
 }
 
-#shop .text{
+#shop .text {
     flex-basis: auto;
 
 }
 
 
-#shop. footer{
+#shop. footer {
 
 }
 
