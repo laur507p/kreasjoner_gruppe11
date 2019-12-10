@@ -8,9 +8,9 @@ body {
 
 /*-------------- GENERELLE INDSTILLINGER -----------------*/
 
-
-
-
+html {
+    scroll-behavior: smooth;
+}
 
 
 
@@ -99,8 +99,19 @@ body {
 
 /*-------------- NAV -----------------*/
 
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
 
+}
 
+nav a:hover {
+    color: #f7c3bb;
+}
 
 
 
@@ -803,99 +814,3 @@ body {
 
 
 /*-------------- #CHECKOUT -----------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-+
