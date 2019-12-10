@@ -361,8 +361,8 @@ background-image:url(thumbnail_splash.png);
 #shop .produkt1 {
     display:flex;
     flex-basis: auto;
-    height: 5vw;
-    width: 5vw;
+    height: 10vw;
+    width: 2vw;
 
 }
 #shop .produkt2 {
