@@ -239,6 +239,7 @@ header {
     font-size: 2rem;
     padding-left: 20px;
     padding-top: 20px;
+    text-align: center;
 }
 
 
@@ -251,7 +252,8 @@ header {
     padding-left: 20px;
     padding-top: 20px;
     border: solid black;
-    width: 140px
+    width: 140px;
+    text-align: center;
 }
 
 #forside H1 {
@@ -262,6 +264,7 @@ header {
     font-size: 2rem;
     padding-left: 20px;
     padding-top: 20px;
+    text-align: center;
 }
 
 #forside H3 {
@@ -272,21 +275,42 @@ header {
     font-size: 2rem;
     padding-left: 20px;
     padding-top: 20px;
+    text-align: center;
 }
 
 
-.splash_forside img {
+img {
     width: 100%;
 }
 
+#forside .col1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .col2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .col3 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
+#forside .image {
+    flex-basis: 400px;
 
+}
 
+#forside .title {
+    flex-basis: 400px;
+}
 
-
-
-
+#forside .text {
+    flex-basis: 400px;
+}
 
 
 
