@@ -231,48 +231,20 @@ header {
 /*-------------- #FORSIDE -----------------*/
 
 
-#forside p {
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-}
 
 
-#forside H2 {
 
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-    border: solid black;
-    width: 140px
-}
 
-#forside H1 {
 
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-}
 
-#forside H3 {
 
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-}
+
+
+
+
+
+
+
 
 
 
@@ -386,51 +358,11 @@ background-image:url(thumbnail_splash.png);
 
 
 
-#shop .produkt1 {
+#shop .produkt {
     display:flex;
-    flex-basis: auto;
+    flex-basis: 200px;
     height: 10vw;
     width: 2vw;
-
-}
-#shop .produkt2 {
-     display:flex;
-    flex-basis: auto;
-     height: 5vw;
-    width: 5vw;
-
-
-}
-#shop .produkt3 {
-     display:flex;
-    flex-basis: auto;
-     height: 5vw;
-    width: 5vw;
-
-
-}
-#shop .produkt4 {
-     display:flex;
-    flex-basis: auto;
-     height: 5vw;
-    width: 5vw;
-
-
-}
-#shop .produkt5 {
-     display:flex;
-    flex-basis: auto;
-     height: 5vw;
-    width: 5vw;
-
-
-}
-#shop .produkt6 {
-     display:flex;
-    flex-basis: auto;
-     height: 5vw;
-    width: 5vw;
-
 
 }
 
