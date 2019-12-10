@@ -16,6 +16,8 @@ html {
     display: flex;
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, .1);
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 
 header img {
@@ -130,6 +132,11 @@ nav {
     top: 2vw;
     left: 20vw;
     display: inline;
+}
+
+header {
+
+    background-color: white;
 }
 
 
@@ -518,11 +525,32 @@ background-image:url(thumbnail_splash.png);
 /*-------------- #HAANDVAERKERE -----------------*/
 
 
-#splash_haandvaerkere {
-    height: 20vw;
+#splash_haandvaerker {
+    height: 10vw;
+    width: 100vw;
 }
 
-#splash_haandvaerkere img {
+#image_haandvaerker {
+    background-image: url(billeder/1.jpg);
+    width: 100vw;
+    height: 75vw;
+    background-size: cover;
+}
+
+#haandvaerkere .sectionwrapper {
+    flex-wrap: wrap-reverse;
+}
+
+
+#haandvaerker1 .text {
+    flex-basis: 400px;
+}
+
+#haandvaerker1 .image {
+    flex-basis: 400px;
+}
+
+#haandvaerkere img {
     width: 100%;
 }
 
