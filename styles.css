@@ -305,8 +305,61 @@ body {
 /*-------------- #SHOP -----------------*/
 
 
+#shop {
+
+}
 
 
+#shop .splash_shop{
+}
+
+
+
+
+#shop .produkt1{
+    display:flex;
+
+}
+#shop .produkt2{
+     display:flex;
+
+}
+#shop .produkt3{
+     display:flex;
+
+}
+#shop .produkt4{
+     display:flex;
+
+}
+#shop .produkt5{
+     display:flex;
+
+}
+#shop .produkt6{
+     display:flex;
+
+}
+
+
+
+
+#shop .image {
+     flex-basis: auto;
+    width:10vw;
+
+
+}
+
+#shop .text{
+    flex-basis: auto;
+
+}
+
+
+#shop. footer{
+
+}
 
 
 
