@@ -247,9 +247,7 @@ header {
 
 
 
-.splash_forside img {
-    width: 100%;
-}
+
 
 
 
@@ -352,6 +350,7 @@ header {
 
 
 #splash_shop {
+    background-image: url(thumbnail_splash.png);
     width: 100vw;
     height: 44.2vw;
     background-size: cover;
@@ -365,9 +364,12 @@ header {
 
 #shop .produkt {
     display:flex;
-    flex-basis: 200px;
-    height: 10vw;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    height: 5vw;
     width: 2vw;
+    flex-direction:column;
+    justify-content: space-around;
 
 }
 
