@@ -26,6 +26,10 @@ header img {
 
 }
 
+img {
+    width: 100%;
+}
+
 
 
 
@@ -116,8 +120,9 @@ nav a {
     text-decoration: none;
     color: black;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 1.3rem;
-    padding-left: 20px;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 10px;
     padding-top: 20px;
 
 }
@@ -135,8 +140,11 @@ nav {
 }
 
 header {
-
     background-color: white;
+    height: 106px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 
@@ -232,6 +240,49 @@ header {
 
 
 
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+>>>>>>> origin/master
+
+
+
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: solid black;
+    width: 140px;
+    text-align: center;
+}
+>>>>>>> origin/master
+
+
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+>>>>>>> origin/master
+
+
+<<<<<<< HEAD
 
 
 
@@ -241,22 +292,50 @@ header {
 
 
 
+=======
+    text-decoration: none;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
 
 
+img {
+    width: 100%;
+}
+>>>>>>> origin/master
+
+#forside .col1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .col2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside .col3 {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
+#forside .image {
+    flex-basis: 400px;
 
+}
 
+#forside .title {
+    flex-basis: 400px;
+}
 
-
-
-
-
-
-
-
-
-
+#forside .text {
+    flex-basis: 400px;
+}
 
 
 
@@ -504,23 +583,73 @@ header {
     background-size: cover;
 }
 
-#haandvaerkere .sectionwrapper {
+#haandvaerker2 .sectionwrapper {
     flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
 }
 
+#haandvaerkere .sectionwrapper {
+    margin: 70px 0 70px 0;
+    padding: 20px 0 20px 0;
+    box-shadow: none;
+}
 
 #haandvaerker1 .text {
-    flex-basis: 400px;
+    flex-basis: 600px;
 }
 
 #haandvaerker1 .image {
-    flex-basis: 400px;
+    flex-basis: 600px;
+}
+
+#haandvaerker3 .text {
+    flex-basis: 600px;
+}
+
+#haandvaerker3 .image {
+    flex-basis: 600px;
+}
+
+#haandvaerker2 .text {
+    flex-basis: 600px;
+}
+
+#haandvaerker2 .image {
+    flex-basis: 600px;
 }
 
 #haandvaerkere img {
     width: 100%;
+    padding: 40px 20px 20px 20px;
 }
 
+#haandvaerkere p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 0 0 20px;
+
+}
+
+#haandvaerkere h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#haandvaerker1 h1 {
+    position: relative;
+    left: 25vw;
+}
+
+#haandvaerker2 h1 {
+    position: relative;
+    right: 5vw;
+}
+
+#haandvaerker3 h1 {
+    position: relative;
+    left: 15vw;
+}
 
 
 
