@@ -15,24 +15,47 @@
     <header>
         <img src="billeder/logo_ss.png" alt="logo">
         <nav>
-            <a href="index.html">FORSIDE</a>
-            <a href="shop.html">SHOP</a>
-            <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
-            <a href="om_os.html">OM OS</a>
-            <a href="kontakt.html">KONTAKT</a>
+            <div id="menuknap">&#9776;</div>
+            <ul id="menu" class="hidden">
+                <a href="index.html">FORSIDE</a>
+                <a href="shop.html">SHOP</a>
+                <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
+                <a href="om_os.html">OM OS</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </ul>
         </nav>
+
     </header>
 
     <section id="haandvaerkere">
         <section class="splash_haandvaerker">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+
             <div id="image_haandvaerker"></div>
         </section>
 
+<!--
+        <section>
+            <div id="sidebar">&rarr;</div>
+            <ul id="haandvaerkere_sidebar">
+                <a href="#haandvaerker1">Julie Ebens</a>
+                <a href="#haandvaerker2">Frida Ceramics</a>
+                <a href="#haandvaerker3">Emilie Stanton</a>
+            </ul>
+        </section>
+-->
+
         <section id="haandvaerker1">
             <div class="sectionwrapper">
+
                 <div class="text">
-                    <h1>Julie Ebens</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <div class="header">
+                        <h1>Julie Ebens</h1>
+                    </div>
+                    <p class="haandvaerker_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <p class="shop_knap">SHOP</p>
                 </div>
                 <div class="image">
                     <img src="billeder/1.jpg" alt="billede">
@@ -42,9 +65,13 @@
 
         <section id="haandvaerker2">
             <div class="sectionwrapper">
+
                 <div class="text">
-                    <h1>Frida Ceramics</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <div class="header">
+                        <h1>Frida Ceramics</h1>
+                    </div>
+                    <p class="haandvaerker_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <p class="shop_knap">SHOP</p>
                 </div>
                 <div class="image">
                     <img src="billeder/1.jpg" alt="billede">
@@ -57,8 +84,11 @@
         <section id="haandvaerker3">
             <div class="sectionwrapper">
                 <div class="text">
-                    <h1>Emilie Stanton</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <div class="header">
+                        <h1>Emilie Stanton</h1>
+                    </div>
+                    <p class="haandvaerker_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit mollitia sequi nemo, illum aspernatur unde molestias nesciunt id accusamus et debitis temporibus magnam consectetur nostrum numquam dicta asperiores maxime, possimus repudiandae rerum consequatur? Mollitia repudiandae, nisi totam cum beatae quaerat velit fugit quas eius deleniti delectus vero recusandae, saepe aspernatur.</p>
+                    <p class="shop_knap">SHOP</p>
                 </div>
                 <div class="image">
                     <img src="billeder/1.jpg" alt="billede">
@@ -69,7 +99,7 @@
     </section>
 
     <footer></footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
