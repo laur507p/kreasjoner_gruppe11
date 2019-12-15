@@ -14,16 +14,29 @@ html {
 
 .sectionwrapper {
     display: flex;
-    box-shadow: 0 0 22px 0 rgba(0, 0, 0, .1);
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
 }
 
 header img {
-    margin: auto;
-    width: 20vw;
+    margin-top: 10px;
+    width: 50vw;
+    left: 25vw;
+    position: fixed;
 
+}
+
+img {
+    width: 100%;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.spacer {
+    height: 106px;
 }
 
 
@@ -116,8 +129,9 @@ nav a {
     text-decoration: none;
     color: black;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 1.3rem;
-    padding-left: 20px;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 10px;
     padding-top: 20px;
 
 }
@@ -127,7 +141,7 @@ nav a:hover {
 }
 
 nav {
-    margin: 10px 0 10px 0;
+    margin: 0px 0 10px 0;
     position: fixed;
     top: 2vw;
     left: 20vw;
@@ -136,7 +150,31 @@ nav {
 
 header {
     background-color: white;
+    height: 106px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
+
+
+
+#menuknap {
+    display: inline-block;
+    position: relative;
+    top: 4vw;
+    left: -10vw;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+    background-color: #f7c3bb;
+    height: 100vw;
+
+}
+
+
 
 
 
@@ -230,51 +268,47 @@ header {
 /*-------------- #FORSIDE -----------------*/
 
 
-#forside p {
 
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: center;
+<<<<<<< HEAD=======text-decoration: none;
+color: black;
+font-family: 'Tenor Sans',
+sans-serif;
+font-size: 2rem;
+padding-left: 20px;
+padding-top: 20px;
+text-align: center;
 }
 
-
-#forside H2 {
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-    border: solid black;
-    width: 140px;
-    text-align: center;
+> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
+color: black;
+font-family: 'Tenor Sans',
+sans-serif;
+font-size: 2rem;
+padding-left: 20px;
+padding-top: 20px;
+border: solid black;
+width: 140px;
+text-align: center;
 }
 
-#forside H1 {
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: center;
+> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
+color: black;
+font-family: 'Tenor Sans',
+sans-serif;
+font-size: 2rem;
+padding-left: 20px;
+padding-top: 20px;
+text-align: center;
 }
 
-#forside H3 {
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: center;
+> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
+color: black;
+font-family: 'Tenor Sans',
+sans-serif;
+font-size: 2rem;
+padding-left: 20px;
+padding-top: 20px;
+text-align: center;
 }
 
 
@@ -397,6 +431,39 @@ img {
 
 
 
+#splash_shop {
+    background-image: url(thumbnail_splash.png);
+    width: 100vw;
+    height: 44.2vw;
+    background-size: cover;
+    border-color: white;
+
+}
+
+#shop #produkter {
+    display: flex;
+}
+
+#shop .sectionwrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+
+#shop .produkt {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+
+#shop .image {}
+
 
 
 
@@ -497,9 +564,40 @@ img {
 
 
 #splash_haandvaerker {
-    height: 10vw;
+    height: 70vw;
     width: 100vw;
+    background-color: #f7c3bb;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
 }
+
+#splash_haandvaerker .col {
+    flex-basis: 250px;
+    margin-top: 15px;
+}
+
+#splash_haandvaerker li {
+    font-family: 'Tenor Sans', sans-serif;
+    color: black;
+    font-size: 1rem;
+    list-style-type: none;
+    line-height: 23px;
+}
+
+#splash_haandvaerker li:hover {
+    color: white;
+}
+
+#splash_haandvaerker .title {
+    font-size: 3rem;
+    font-family: 'Tenor Sans', sans-serif;
+    padding-top: 80px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
 
 #image_haandvaerker {
     background-image: url(billeder/1.jpg);
@@ -508,31 +606,97 @@ img {
     background-size: cover;
 }
 
-#haandvaerker1 .sectionwrapper {
+#haandvaerker2 .sectionwrapper {
     flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
 }
 
+#haandvaerkere .sectionwrapper {
+    /*    margin: 70px 0 70px 0;*/
+    padding: 20px 0 20px 0;
+    box-shadow: none;
 
+}
 
 #haandvaerker1 .text {
-    flex-basis: 400px;
+    flex-basis: 600px;
+    order: 2;
+    position: relative;
+    top: -40vw;
 }
 
 #haandvaerker1 .image {
-    flex-basis: 400px;
+    flex-basis: 600px;
+    order: 1;
 }
 
+
+#haandvaerker3 .text {
+    flex-basis: 600px;
+    order: 2;
+    position: relative;
+    top: -40vw;
+}
+
+#haandvaerker3 .image {
+    flex-basis: 600px;
+    order: 1;
+}
+
+
 #haandvaerker2 .text {
-    flex-basis: 400px;
+    flex-basis: 600px;
+    position: relative;
+    top: -40vw;
 }
 
 #haandvaerker2 .image {
-    flex-basis: 400px;
+    flex-basis: 600px;
 }
+
 
 #haandvaerkere img {
     width: 100%;
+    padding: 40px 20px 20px 20px;
 }
+
+.haandvaerker_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    padding: 0 20px 0 30px;
+}
+
+#haandvaerkere h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#haandvaerkere .header {
+    text-align: center;
+    position: relative;
+    top: -56vw;
+}
+
+
+
+.shop_knap {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+}
+
+.shop_knap:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
 
 
 
@@ -929,3 +1093,174 @@ img {
 
 
 /*-------------- #CHECKOUT -----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- MEDIA QUERY ----------------------------*/
+
+
+
+@media only screen and (min-width: 600px) {
+
+    /**--------NAV---------*/
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+    header img {
+        width: 20vw;
+        left: 0;
+    }
+
+    #menu {
+        background-color: transparent;
+
+    }
+
+    /*------ HAANDVAERKERE---------*/
+    .shop_knap {
+        margin-left: 250px;
+    }
+
+    #haandvaerker1 h1 {
+        position: relative;
+        left: 25vw;
+    }
+
+    #haandvaerker2 h1 {
+        position: relative;
+        right: 5vw;
+    }
+
+    #haandvaerker3 h1 {
+        position: relative;
+        left: 15vw;
+    }
+
+    #haandvaerker1 .text,
+    #haandvaerker2 .text,
+    #haandvaerker3 .text {
+        top: 0;
+        order: 0;
+    }
+
+    #haandvaerkere .header {
+        text-align: center;
+        position: relative;
+        top: 0vw;
+    }
+
+    #splash_haandvaerker {
+        height: 350px;
+    }
+
+    /**------SHOP--------*/
+
+    #shop .sectionwrapper {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
