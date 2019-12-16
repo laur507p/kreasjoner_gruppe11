@@ -266,47 +266,51 @@ header {
 /*-------------- #FORSIDE -----------------*/
 
 
-
-<<<<<<< HEAD=======text-decoration: none;
-color: black;
-font-family: 'Tenor Sans',
-sans-serif;
-font-size: 2rem;
-padding-left: 20px;
-padding-top: 20px;
-text-align: center;
+.splash_text {
+    position: relative;
+    top: -40vw;
 }
 
-> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
-color: black;
-font-family: 'Tenor Sans',
-sans-serif;
-font-size: 2rem;
-padding-left: 20px;
-padding-top: 20px;
-border: solid black;
-width: 140px;
-text-align: center;
+#forside h1 {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
-> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
-color: black;
-font-family: 'Tenor Sans',
-sans-serif;
-font-size: 2rem;
-padding-left: 20px;
-padding-top: 20px;
-text-align: center;
+#forside h2 {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: solid black;
+    width: 140px;
+    text-align: center;
 }
 
-> > > > > > > origin/master <<<<<<< HEAD=======text-decoration: none;
-color: black;
-font-family: 'Tenor Sans',
-sans-serif;
-font-size: 2rem;
-padding-left: 20px;
-padding-top: 20px;
-text-align: center;
+#forside h3 {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#forside p {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 
@@ -342,6 +346,7 @@ img {
 #forside .text {
     flex-basis: 400px;
 }
+
 
 
 
