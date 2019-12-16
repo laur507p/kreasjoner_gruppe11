@@ -146,8 +146,6 @@ nav {
     top: 2vw;
     left: 20vw;
     display: inline;
-
-
 }
 
 header {
@@ -220,16 +218,7 @@ header {
 /*-------------- FOOTER -----------------*/
 
 
-footer .col {
-    flex-basis: 200px;
-    padding: 15px;
-    font-family: 'Tenor Sans', sans-serif;
 
-}
-
-footer {
-    background-color: #f7dcd3;
-}
 
 
 
@@ -612,7 +601,7 @@ img {
 
 
 #splash_haandvaerker {
-    height: 77vw;
+    height: 70vw;
     width: 100vw;
     background-color: #f7c3bb;
     display: flex;
@@ -622,7 +611,7 @@ img {
 }
 
 #splash_haandvaerker .col {
-    flex-basis: 200px;
+    flex-basis: 250px;
     margin-top: 15px;
 }
 
@@ -737,9 +726,7 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
-    <<<<<<< HEAD <<<<<<< HEAD=======z-index: 1000;
-    > > > > > > > origin/master=======z-index: 1000;
-
+    <<<<<<< HEAD=======z-index: 1000;
     > > > > > > > origin/master
 }
 
@@ -1216,35 +1203,25 @@ iframe {
 
 
 #checkout .col_wide {
-    flex-basis: 500px;
+    flex-basis: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
 }
 
 #checkout .col_narrow {
-    flex-basis: 200px;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid #f7c3bb;
+    flex-basis: 300px;
     display: flex;
+    justify-content: center;
 }
 
-#checkout .col1 {
+#checkout .col {
     flex-basis: 350px;
-}
 
-#checkout .col2 {
-    flex-basis: 350px;
-}
-
-#checkout .col2 p {
-    text-align: right;
 }
 
 #checkout input {
-    width: 500px;
+    width: 350px;
     background-color: #f7c3bb;
     border: none;
     padding: 5px;
@@ -1273,21 +1250,6 @@ iframe {
     text-align: right;
 }
 
-#checkout .col_narrow p {
-    font-family: 'Tenor Sans', sans-serif;
-
-}
-
-#checkout .col_narrow h1 {
-    font-family: 'Tenor Sans', sans-serif;
-    display: inline-block;
-
-}
-
-#checkout .col_narrow .col {
-    flex-basis: 100px;
-
-}
 
 
 
@@ -1458,134 +1420,43 @@ iframe {
     #shop .produkt {
         flex-basis: 300px;
     }
-
-    /**---------forside-------*/
-
-    .splash_text {
-
-        position: relative;
-        top: -40vw;
-        color: white;
-        border: white;
-    }
-
-    #forside h1 {
-
-        font-family: 'Tenor Sans',
-            sans-serif;
-        font-size: 3vw;
-        text-align: center;
-    }
-
-    #forside h2 {
-
-        font-family: 'Tenor Sans',
-            sans-serif;
-        font-size: 8vw;
-
-        border: solid black;
-        width: 140px;
-        text-align: center;
-    }
-
-    #forside h3 {
-        font-weight: 100;
-        font-family: 'Tenor Sans',
-            sans-serif;
-        font-size: 6vw;
-        margin: 0;
-        text-align: center;
-    }
-
-    #forside p {
-
-        font-family: 'Tenor Sans',
-            sans-serif;
-        font-size: 1.5vw;
-
-        text-align: center;
-    }
-
-
-    img {
-        width: 100%;
-    }
-
-    #forside .col1 {
-        justify-content: center;
-        position: relative;
-        top: 0vw;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forside .col2 {
-        justify-content: center;
-        flex-direction: row-reverse;
-        position: relative;
-        top: 0vw;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #forside .col3 {
-        justify-content: center;
-        position: relative;
-        top: 0vw;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-
-    #forside .image {
-        flex-basis: 500px;
-
-    }
-
-    #forside .col1 .image {
-        position: relative;
-        left: -11vw;
-        z-index: -1000;
-    }
-
-    #forside .col2 .image {
-        position: relative;
-        left: 11vw;
-        z-index: -1000;
-    }
-
-    #forside .col3 .image {
-        position: relative;
-        left: -11vw;
-        z-index: -1000;
-    }
-
-    #forside .title {
-        flex-basis: 400px;
-        position: relative;
-        top: 60px;
-    }
-
-    #forside .text {
-        flex-basis: 400px;
-    }
-
-    .shop_knap_forside {
-        padding: 5px 10px 5px 10px;
-        border: 1px solid;
-        width: 120px;
-        text-align: center;
-        margin: 0;
-        font-size: 1.3rem;
-        font-family: 'Tenor Sans', sans-serif;
-        margin: auto;
-        z-index: 1000;
-    }
-
-    .shop_knap_forside:hover {
-        border: 1px solid white;
-        background-color: white;
-        color: black;
-    }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**------OM OS--------*/
