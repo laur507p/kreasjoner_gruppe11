@@ -218,7 +218,16 @@ header {
 /*-------------- FOOTER -----------------*/
 
 footer .col {
-    flex-basis: 100px;
+    flex-basis: 200px;
+    padding: 20px;
+
+}
+
+footer .sectionwrapper {
+    background-color: #f7c3bb;
+    font-family: 'Tenor Sans', sans-serif;
+    justify-content: flex-start;
+    padding-left: 10vw;
 }
 
 
