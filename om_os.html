@@ -12,14 +12,23 @@
 <body>
 
     <header>
+        <img src="billeder/logo_ss.png" alt="logo">
         <nav>
-            <a href="index.html">FORSIDE</a>
-            <a href="shop.html">SHOP</a>
-            <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
-            <a href="om_os.html">OM OS</a>
-            <a href="kontakt.html">KONTAKT</a>
+
+
+            <div id="menuknap">&#9776;</div>
+            <ul id="menu" class="hidden">
+                <a href="index.html">FORSIDE</a>
+                <a href="shop.html">SHOP</a>
+                <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
+                <a href="om_os.html">OM OS</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </ul>
+
         </nav>
     </header>
+
+    <div class="spacer"></div>
 
     <section id="om_os">
 
@@ -27,7 +36,12 @@
 
         <div class="sectionwrapper">
             <div class="text">
-                <h1>OM OS</h1>
+                <div class="titel">
+                    <h1>OM OS</h1>
+                </div>
+                <div class="image">
+                    <img src="billeder/placeholder.jpg" alt="billede">
+                </div>
                 <p>Hele ideen om denne webshop opstod, fordi jeg synes det var svært at finde et sted jeg kunne sælge mine produkter jeg sad og skabte hjemme. Det krævede enormt meget tid hvis jeg skulle kunne sælge det på instagram, og oftest endte tingene også bare med at være en døgnflue.
                     Jeg kunne se hvor meget tid og hvor mange penge flere af mine veninder brugte på at sælge deres kreationer på diverse designmarkeder, uden egentlig at komme hjem med et overskud.
 
@@ -35,9 +49,7 @@
 
 
             </div>
-            <div class="image">
-                <img src="billeder/1.jpg" alt="billede">
-            </div>
+
         </div>
         <p>Samtidig var jeg træt af at alt handlede om at have de samme ting derhjemme. Jeg ledte efter unikke produkter, søgte i mange timer på instagram, på nettet, shoppede i butikker, men jeg synes udvalget var for småt.
 
@@ -45,7 +57,7 @@
             En platform der samler unikke håndlavede produkter, der støtter den enkelte håndværker, og ikke en kæmpe virksomhed.
             Jeg ønsker at værdsætte dansk design, dansk flid og unikke produkter skabt med dygtige hænder og passion. </p>
         <section id="video"></section>
-        <h1>VORES MISSION</h1>
+        <h2>VORES MISSION</h2>
         <p>Vi ønsker at gøre det lettere for kreative håndværkere og håndarbejdere at sælge deres produkter online, og skabe en større interesse for mindre virksomheder, lokal produktion og unikke produkter.
 
             Desuden lever vi i dag med miljømæssige udfordringer, ved at købe lokalt og dansk produceret bliver der udledet mindre CO2 under produktionen, og leveringen skal maks foregå mellem Jylland og Sjælland og ikke flyttes via lufttransport fra et andet kontinent. </p>
@@ -53,7 +65,7 @@
 
     <footer></footer>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
