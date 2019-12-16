@@ -1507,8 +1507,9 @@ iframe {
     }
 
 
+
     #forside .image {
-        flex-basis: 500px;
+        flex-basis: 600px;
 
     }
 
@@ -1542,6 +1543,21 @@ iframe {
 
     #forside .text {
         align-self: center;
+    }
+
+    #forside .col1 .text {
+        position: relative;
+        left: -40px;
+    }
+
+    #forside .col2 .text {
+        position: relative;
+        left: 40px;
+    }
+
+    #forside .col3 .text {
+        position: relative;
+        left: -40px;
     }
 
     .shop_knap_forside {
