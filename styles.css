@@ -170,8 +170,6 @@ header {
     transition: transform .3s;
     transform-origin: top left;
     background-color: #f7c3bb;
-    height: 100vw;
-
 }
 
 
@@ -485,6 +483,14 @@ img {
     font-size: 1.5rem;
 }
 
+#splash_shop p {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    color: white;
+    top: 15vw;
+    left: 32vw;
+}
 
 
 
@@ -710,7 +716,11 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
+<<<<<<< HEAD
 
+=======
+    z-index: 1000;
+>>>>>>> origin/master
 }
 
 .shop_knap:hover {
@@ -720,14 +730,7 @@ img {
 
 }
 
-#splash_shop p {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 2.5rem;
-    position: relative;
-    color: white;
-    top: 15vw;
-    left: 32vw;
-}
+
 
 
 
@@ -1169,6 +1172,24 @@ iframe {
 #checkout form {
     font-family: 'Tenor Sans', sans-serif;
     padding: 5px;
+}
+
+#checkout .breadcrumbs {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.greytext {
+    color: #e0dddd;
+}
+
+.textalignleft {
+    text-align: left;
+}
+
+.textalignright {
+    text-align: right;
 }
 
 
