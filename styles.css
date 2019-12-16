@@ -598,10 +598,19 @@ header {
 
 /*-------------- #OM_OS -----------------*/
 
+#om_os .text {
+    flex-basis: 400px;
+}
 
 
+#om_os .image {
+    flex-basis: 400px;
 
+}
 
+#om_os img {
+    width: 100%;
+}
 
 
 
