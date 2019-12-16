@@ -267,39 +267,38 @@ header {
 
 
 .splash_text {
+
     position: relative;
     top: -40vw;
+    color: white;
+    border: white;
 }
 
 #forside h1 {
-    color: black;
+
     font-family: 'Tenor Sans',
         sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 10vw;
     text-align: center;
 }
 
 #forside h2 {
-    color: black;
+
     font-family: 'Tenor Sans',
         sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 8vw;
+
     border: solid black;
     width: 140px;
     text-align: center;
 }
 
 #forside h3 {
-    color: black;
+    font-weight: 100;
     font-family: 'Tenor Sans',
         sans-serif;
-    font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 6vw;
+    margin: 0;
     text-align: center;
 }
 
@@ -307,7 +306,7 @@ header {
 
     font-family: 'Tenor Sans',
         sans-serif;
-    font-size: 1rem;
+    font-size: 5vw;
 
     text-align: center;
 }
@@ -318,16 +317,25 @@ img {
 }
 
 #forside .col1 {
+    justify-content: center;
+    position: relative;
+    top: -40vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 #forside .col2 {
+    justify-content: center;
+    position: relative;
+    top: -40vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 #forside .col3 {
+    justify-content: center;
+    position: relative;
+    top: -40vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -340,15 +348,17 @@ img {
 
 #forside .title {
     flex-basis: 400px;
+    position: relative;
+    top: 60px;
 }
 
 #forside .text {
     flex-basis: 400px;
 }
 
-.shop_knap {
+.shop_knap_forside {
     padding: 5px 10px 5px 10px;
-    border: 1px solid black;
+    border: 1px solid;
     width: 120px;
     text-align: center;
     margin: 0;
@@ -358,10 +368,10 @@ img {
     z-index: 1000;
 }
 
-.shop_knap:hover {
-    border: 1px solid black;
-    background-color: black;
-    color: white;
+.shop_knap_forside:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
 }
 
 
@@ -716,11 +726,8 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
-<<<<<<< HEAD
-
-=======
-    z-index: 1000;
->>>>>>> origin/master
+    <<<<<<< HEAD=======z-index: 1000;
+    > > > > > > > origin/master
 }
 
 .shop_knap:hover {
