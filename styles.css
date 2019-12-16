@@ -217,7 +217,9 @@ header {
 
 /*-------------- FOOTER -----------------*/
 
-
+footer .col {
+    flex-basis: 100px;
+}
 
 
 
@@ -726,8 +728,8 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
-    <<<<<<< HEAD=======z-index: 1000;
-    > > > > > > > origin/master
+    z-index: 1000;
+
 }
 
 .shop_knap:hover {
@@ -1203,16 +1205,17 @@ iframe {
 
 
 #checkout .col_wide {
-    flex-basis: 700px;
+    flex-basis: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 #checkout .col_narrow {
-    flex-basis: 300px;
+    flex-basis: 200px;
     display: flex;
     justify-content: center;
+    border: 1px solid #f7c3bb;
 }
 
 #checkout .col {
@@ -1221,10 +1224,30 @@ iframe {
 
 #checkout .col_narrow .col1 {
     flex-basis: 100px;
+    padding: 20px;
+    margin: 20px;
 }
 
-#checkout input {
-    width: 350px;
+#checkout .col_narrow .col2 {
+    flex-basis: 100px;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+}
+
+#checkout h1 {
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+
+#checkout .col_narrow p {
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+#checkout .col_wide input {
+    width: 500px;
     background-color: #f7c3bb;
     border: none;
     padding: 5px;
