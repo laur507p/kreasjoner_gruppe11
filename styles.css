@@ -217,7 +217,18 @@ header {
 
 /*-------------- FOOTER -----------------*/
 
+footer .col {
+    flex-basis: 200px;
+    padding: 20px;
 
+}
+
+footer .sectionwrapper {
+    background-color: #f7c3bb;
+    font-family: 'Tenor Sans', sans-serif;
+    justify-content: flex-start;
+    padding-left: 10vw;
+}
 
 
 
@@ -726,8 +737,8 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
-    <<<<<<< HEAD=======z-index: 1000;
-    > > > > > > > origin/master
+    z-index: 1000;
+
 }
 
 .shop_knap:hover {
@@ -1220,25 +1231,49 @@ iframe {
 
 
 #checkout .col_wide {
-    flex-basis: 700px;
+    flex-basis: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 #checkout .col_narrow {
-    flex-basis: 300px;
+    flex-basis: 200px;
     display: flex;
     justify-content: center;
+    border: 1px solid #f7c3bb;
 }
 
 #checkout .col {
     flex-basis: 350px;
+}
+
+#checkout .col_narrow .col1 {
+    flex-basis: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#checkout .col_narrow .col2 {
+    flex-basis: 100px;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+}
+
+#checkout h1 {
+    font-family: 'Tenor Sans', sans-serif;
 
 }
 
-#checkout input {
-    width: 350px;
+
+#checkout .col_narrow p {
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+
+#checkout .col_wide input {
+    width: 500px;
     background-color: #f7c3bb;
     border: none;
     padding: 5px;
@@ -1442,12 +1477,13 @@ iframe {
 
     /*---- FORSIDE -----*/
 
-    .splash_text {
+    #forside .splash_text {
 
         position: relative;
-        top: -40vw;
+        top: -30vw;
         color: white;
         border: white;
+        align-self: center;
     }
 
     #forside h1 {
@@ -1498,6 +1534,7 @@ iframe {
         top: 0vw;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
 
     #forside .col2 {
@@ -1507,6 +1544,7 @@ iframe {
         top: 0vw;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
 
     #forside .col3 {
@@ -1518,8 +1556,9 @@ iframe {
     }
 
 
+
     #forside .image {
-        flex-basis: 500px;
+        flex-basis: 600px;
 
     }
 
@@ -1549,6 +1588,25 @@ iframe {
 
     #forside .text {
         flex-basis: 400px;
+    }
+
+    #forside .text {
+        align-self: center;
+    }
+
+    #forside .col1 .text {
+        position: relative;
+        left: -40px;
+    }
+
+    #forside .col2 .text {
+        position: relative;
+        left: 40px;
+    }
+
+    #forside .col3 .text {
+        position: relative;
+        left: -40px;
     }
 
     .shop_knap_forside {
