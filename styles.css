@@ -849,20 +849,71 @@ img {
 
 /*-------------- #OM_OS -----------------*/
 
+#om_os .text {
+    flex-basis: 400px;
+
+}
+
+
+#om_os .image {
+    flex-basis: 400px;
+
+}
+
+#om_os img {
+    width: 100%;
+}
+
+#om_os h1 {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+
+
+.splash_text {
+    position: relative;
+    top: -40vw;
+}
+
+
+#om_os h2 {
+    color: black;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#om_os p {
+
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+
+}
 
 
 
 
 
+.splash_om_os {
+    background-image: url(thumbnail_splash.png);
+    width: 100vw;
+    height: 44.2vw;
+    background-size: cover;
+    border-color: white;
 
-
-
-
-
-
-
-
-
+}
 
 
 
