@@ -1420,43 +1420,138 @@ iframe {
     #shop .produkt {
         flex-basis: 300px;
     }
+
+
+
+    /*---- FORSIDE -----*/
+
+    .splash_text {
+
+        position: relative;
+        top: -40vw;
+        color: white;
+        border: white;
+    }
+
+    #forside h1 {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #forside h2 {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 8vw;
+
+        border: solid black;
+        width: 140px;
+        text-align: center;
+    }
+
+    #forside h3 {
+        font-weight: 100;
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 6vw;
+        margin: 0;
+        text-align: center;
+    }
+
+    #forside p {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 1.5vw;
+
+        text-align: center;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+    #forside .col1 {
+        justify-content: center;
+        position: relative;
+        top: 0vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forside .col2 {
+        justify-content: center;
+        flex-direction: row-reverse;
+        position: relative;
+        top: 0vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forside .col3 {
+        justify-content: center;
+        position: relative;
+        top: 0vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #forside .image {
+        flex-basis: 500px;
+
+    }
+
+    #forside .col1 .image {
+        position: relative;
+        left: -11vw;
+        z-index: -1000;
+    }
+
+    #forside .col2 .image {
+        position: relative;
+        left: 11vw;
+        z-index: -1000;
+    }
+
+    #forside .col3 .image {
+        position: relative;
+        left: -11vw;
+        z-index: -1000;
+    }
+
+    #forside .title {
+        flex-basis: 400px;
+        position: relative;
+        top: 60px;
+    }
+
+    #forside .text {
+        flex-basis: 400px;
+    }
+
+    .shop_knap_forside {
+        padding: 5px 10px 5px 10px;
+        border: 1px solid;
+        width: 120px;
+        text-align: center;
+        margin: 0;
+        font-size: 1.3rem;
+        font-family: 'Tenor Sans', sans-serif;
+        margin: auto;
+        z-index: 1000;
+    }
+
+    .shop_knap_forside:hover {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+    }
+
+    /**------OM OS--------*/
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**------OM OS--------*/
