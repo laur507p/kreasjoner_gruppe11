@@ -460,14 +460,16 @@ img {
 #shop .produkt {
     display: flex;
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
     flex-direction: column;
     margin: 20px;
 
 }
 
-
-#shop .image {}
+#shop .text {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.5rem;
+}
 
 
 
@@ -702,6 +704,15 @@ img {
     color: white;
 }
 
+#splash_shop p {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    color: white;
+    top: 15vw;
+    left: 32vw;
+}
+
 
 
 
@@ -901,8 +912,22 @@ img {
 
 /*-------------- #KONTAKT -----------------*/
 
+#kort {
+    margin: auto;
+    background-color: #f7c3bb;
+    padding: 20px;
+}
+
+iframe {
+    margin: auto;
+}
 
 
+
+#splash_kontakt {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -1100,7 +1125,35 @@ img {
 /*-------------- #CHECKOUT -----------------*/
 
 
+#checkout .col_wide {
+    flex-basis: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+#checkout .col_narrow {
+    flex-basis: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#checkout .col {
+    flex-basis: 350px;
+
+}
+
+#checkout input {
+    width: 350px;
+    background-color: #f7c3bb;
+    border: none;
+    padding: 5px;
+}
+
+#checkout form {
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 5px;
+}
 
 
 
@@ -1267,5 +1320,9 @@ img {
     #shop .sectionwrapper {
         margin-left: 10vw;
         margin-right: 10vw;
+    }
+
+    #shop .produkt {
+        flex-basis: 300px;
     }
 }
