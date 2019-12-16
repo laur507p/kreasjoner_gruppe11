@@ -12,18 +12,27 @@
 <body>
 
     <header>
+        <img src="billeder/logo_ss.png" alt="logo">
         <nav>
-           <a href="index.html">FORSIDE</a>
-            <a href="shop.html">SHOP</a>
-            <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
-            <a href="om_os.html">OM OS</a>
-            <a href="kontakt.html">KONTAKT</a>
+            <div id="menuknap">&#9776;</div>
+            <ul id="menu" class="hidden">
+                <a href="index.html">FORSIDE</a>
+                <a href="shop.html">SHOP</a>
+                <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
+                <a href="om_os.html">OM OS</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </ul>
         </nav>
     </header>
+    <div class="spacer"></div>
 
     <section id="kontakt">
 
-        <section class="splash_kontakt"></section>
+        <section id="splash_kontakt">
+            <div id="kort">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9001.297954279906!2d12.5444919!3d55.6659573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1d7eea8cf7972a3!2sKr%C3%A6asjoner!5e0!3m2!1sen!2sdk!4v1576431996300!5m2!1sen!2sdk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
 
         <div class="sectionwrapper">
             <div class="col"></div>
@@ -35,7 +44,7 @@
 
     <footer></footer>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -12,24 +12,31 @@
 <body>
 
     <header>
-
+        <img src="billeder/logo_ss.png" alt="logo">
         <nav>
-            <a href="index.html">FORSIDE</a>
-            <a href="shop.html">SHOP</a>
-            <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
-            <a href="om_os.html">OM OS</a>
-            <a href="kontakt.html">KONTAKT</a>
-
+            <div id="menuknap">&#9776;</div>
+            <ul id="menu" class="hidden">
+                <a href="index.html">FORSIDE</a>
+                <a href="shop.html">SHOP</a>
+                <a href="haandvaerkere.html">HÅNDVÆRKERE</a>
+                <a href="om_os.html">OM OS</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </ul>
         </nav>
     </header>
 
+    <div class="spacer"></div>
+
     <section id="forside">
 
+
         <section class="splash_forside">
-            <figure><img src="billeder/splash.png" alt="rainbow"> </figure>
-            <h3>HÅNDLAVEDE KREATIONER</h3>
-            <P>Af dygtige håndværkere</P>
-            <h2>SHOP</h2>
+            <img src="billeder/splash.png" alt="rainbow">
+            <div class="splash_text">
+                <h3>HÅNDLAVEDE KREATIONER</h3>
+                <P>Af dygtige håndværkere</P>
+                <p class="shop_knap">SHOP</p>
+            </div>
         </section>
 
 
@@ -44,7 +51,7 @@
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nobis error repellat sapiente provident voluptates nam, aut excepturi quas dolor necessitatibus labore vitae commodi tempore, mollitia similique quam minima id.</p>
-                    <h2>SHOP</h2>
+                    <p class="shop_knap">SHOP</p>
                 </div>
             </div>
 
@@ -58,27 +65,30 @@
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nobis error repellat sapiente provident voluptates nam, aut excepturi quas dolor necessitatibus labore vitae commodi tempore, mollitia similique quam minima id.</p>
-                    <h2>SHOP</h2>
+                    <p class="shop_knap">SHOP</p>
                 </div>
             </div>
 
             <div class="col3">
-                <H1>UNIKKE KREATIONER</H1>
+                <div class="title">
+                    <H1>UNIKKE KREATIONER</H1>
+                </div>
+                <div class="image">
+                    <figure><img src="billeder/placeholder.jpg" alt="dog of sunshine"> </figure>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nobis error repellat sapiente provident voluptates nam, aut excepturi quas dolor necessitatibus labore vitae commodi tempore, mollitia similique quam minima id.</p>
+                    <p class="shop_knap">SHOP</p>
+                </div>
             </div>
 
-            <div class="image">
-                <figure><img src="billeder/placeholder.jpg" alt="dog of sunshine"> </figure>
-            </div>
-            <div class="text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nobis error repellat sapiente provident voluptates nam, aut excepturi quas dolor necessitatibus labore vitae commodi tempore, mollitia similique quam minima id.</p>
-                <h2>SHOP</h2>
-            </div>
         </div>
-
-
 
     </section>
 
     <footer></footer>
+    <script src="script.js"></script>
 
-</body></html>
+</body>
+
+</html>
