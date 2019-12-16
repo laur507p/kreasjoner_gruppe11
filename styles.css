@@ -306,12 +306,11 @@ header {
 }
 
 #forside p {
-    color: black;
+
     font-family: 'Tenor Sans',
         sans-serif;
     font-size: 1rem;
-    padding-left: 20px;
-    padding-top: 20px;
+
     text-align: center;
 }
 
@@ -349,8 +348,23 @@ img {
     flex-basis: 400px;
 }
 
+.shop_knap {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+    z-index: 1000;
+}
 
-
+.shop_knap:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -696,12 +710,14 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
+
 }
 
 .shop_knap:hover {
     border: 1px solid black;
     background-color: black;
     color: white;
+
 }
 
 #splash_shop p {
