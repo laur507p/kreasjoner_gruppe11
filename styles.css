@@ -1217,7 +1217,10 @@ iframe {
 
 #checkout .col {
     flex-basis: 350px;
+}
 
+#checkout .col_narrow .col1 {
+    flex-basis: 100px;
 }
 
 #checkout input {
