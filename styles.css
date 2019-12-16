@@ -1451,12 +1451,13 @@ iframe {
 
     /*---- FORSIDE -----*/
 
-    .splash_text {
+    #forside .splash_text {
 
         position: relative;
-        top: -40vw;
+        top: -30vw;
         color: white;
         border: white;
+        align-self: center;
     }
 
     #forside h1 {
@@ -1507,6 +1508,7 @@ iframe {
         top: 0vw;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
 
     #forside .col2 {
@@ -1516,6 +1518,7 @@ iframe {
         top: 0vw;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 80px;
     }
 
     #forside .col3 {
@@ -1558,6 +1561,10 @@ iframe {
 
     #forside .text {
         flex-basis: 400px;
+    }
+
+    #forside .text {
+        align-self: center;
     }
 
     .shop_knap_forside {
