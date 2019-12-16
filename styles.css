@@ -218,7 +218,16 @@ header {
 /*-------------- FOOTER -----------------*/
 
 
+footer .col {
+    flex-basis: 200px;
+    padding: 15px;
+    font-family: 'Tenor Sans', sans-serif;
 
+}
+
+footer {
+    background-color: #f7dcd3;
+}
 
 
 
@@ -591,7 +600,7 @@ img {
 
 
 #splash_haandvaerker {
-    height: 70vw;
+    height: 77vw;
     width: 100vw;
     background-color: #f7c3bb;
     display: flex;
@@ -601,7 +610,7 @@ img {
 }
 
 #splash_haandvaerker .col {
-    flex-basis: 250px;
+    flex-basis: 200px;
     margin-top: 15px;
 }
 
@@ -716,11 +725,8 @@ img {
     font-size: 1.3rem;
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
-<<<<<<< HEAD
-
-=======
     z-index: 1000;
->>>>>>> origin/master
+
 }
 
 .shop_knap:hover {
