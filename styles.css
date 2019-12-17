@@ -220,6 +220,7 @@ header {
 footer .col {
     flex-basis: 200px;
     padding: 20px;
+    margin-right: 20px;
 
 }
 
@@ -227,7 +228,14 @@ footer .sectionwrapper {
     background-color: #f7c3bb;
     font-family: 'Tenor Sans', sans-serif;
     justify-content: flex-start;
-    padding-left: 10vw;
+    padding-left: 5vw;
+}
+
+footer h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.3rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 
@@ -849,6 +857,7 @@ img {
 
 /*-------------- #OM_OS -----------------*/
 
+/*
 #om_os .text {
     flex-basis: 400px;
 
@@ -856,15 +865,18 @@ img {
 
 
 #om_os .image {
-    flex-basis: 400px;
-
+    width: 100vw;
+    height: 75vw;
+    background-size: cover;
 }
+*/
+/*
 
-#om_os img {
+#om_os1 img {
     width: 100%;
 }
 
-#om_os h1 {
+#om_os1 h1 {
     color: black;
     font-family: 'Tenor Sans',
         sans-serif;
@@ -878,13 +890,9 @@ img {
 }
 
 
-.splash_text {
-    position: relative;
-    top: -40vw;
-}
 
 
-#om_os h2 {
+#om_os2 h2 {
     color: black;
     font-family: 'Tenor Sans',
         sans-serif;
@@ -893,7 +901,7 @@ img {
     padding-top: 20px;
 }
 
-#om_os p {
+#om_os1 p {
 
     font-family: 'Open Sans',
         sans-serif;
@@ -917,11 +925,30 @@ img {
 
 
 
+#om_os1 .text {
+    flex-basis: 600px;
+    order: 2;
+    position: relative;
+    top: -40vw;
+}
+
+#om_os1 .image {
+    flex-basis: 600px;
+    order: 1;
+}
 
 
 
 
+#om_os2 p {
 
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 1rem;
+    padding-left: 10px;
+
+}
+*/
 
 
 
@@ -1383,6 +1410,11 @@ iframe {
 
 @media only screen and (min-width: 600px) {
 
+
+
+
+
+
     /**--------NAV---------*/
 
     #menuknap {
@@ -1407,6 +1439,46 @@ iframe {
         background-color: transparent;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*------ HAANDVAERKERE---------*/
     .shop_knap {
@@ -1445,6 +1517,42 @@ iframe {
         height: 350px;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**------SHOP--------*/
 
     #shop .sectionwrapper {
@@ -1455,6 +1563,61 @@ iframe {
     #shop .produkt {
         flex-basis: 300px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1650,4 +1813,32 @@ iframe {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     /**------OM OS--------*/
+    /*
+    #om_os1 h1 {
+        position: relative;
+        left: 25vw;
+    }
+
+    #om_os1 .text {
+        top: 0;
+        order: 0;
+    }
+
+    #om_os1 .titel {
+        text-align: center;
+        position: relative;
+        top: 0vw;
+    }
+*/
