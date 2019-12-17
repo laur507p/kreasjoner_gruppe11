@@ -882,6 +882,7 @@ img {
 #om_os p {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 
 }
 
@@ -903,6 +904,7 @@ img {
     font-family: 'Tenor Sans', sans-serif;
     padding: 20px;
     text-align: left;
+    margin: 0;
 
 }
 
@@ -913,7 +915,7 @@ img {
     width: 1000px;
     justify-content: center;
     margin: auto;
-    padding: 20px;
+
 
 }
 
@@ -921,9 +923,15 @@ img {
     text-align: left;
 }
 
+#om_os .splash_om_os {
+    background-image: url(billeder/1.jpg);
+    height: 40vw;
+    width: 100vw;
+}
 
-
-
+#video video {
+    padding: 20px;
+}
 
 
 
