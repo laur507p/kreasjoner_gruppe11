@@ -869,15 +869,17 @@ img {
     padding: 20px;
 }
 
-#om_os1 h1 {
-    font-size: 3rem;
+#om_os h1 {
+    font-size: 5rem;
     font-family: 'Tenor Sans', sans-serif;
-    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+
 
 }
 
 
-#om_os1 p {
+#om_os p {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 
@@ -896,29 +898,28 @@ img {
 }
 
 
-#om_os2 h2 {
+#om_os h2 {
     font-size: 2rem;
     font-family: 'Tenor Sans', sans-serif;
     padding: 20px;
+    text-align: left;
 
 }
 
 
-#om_os2 p {
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-
-}
 
 
 #om_os2 .sectionwrapper {
     width: 1000px;
     justify-content: center;
     margin: auto;
+    padding: 20px;
 
 }
 
-
+#om_os2 h2 {
+    text-align: left;
+}
 
 
 
