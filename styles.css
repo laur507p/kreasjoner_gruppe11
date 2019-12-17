@@ -1314,11 +1314,104 @@ iframe {
 
 
 /*--------------------------#produkt----------------------*/
+#produktside {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 
+}
+
+#produktside .fotos {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+#produktside .fotos img {
+    padding-left: 10px;
+    padding-right: 10px;
+    scroll-snap-align: center;
+}
+
+#produktside .fotos {
 
 
+    flex-basis: auto;
+}
 
+#produktside img {
+
+    padding-bottom: 20px;
+    width: 75%;
+}
+
+#produktside .text {
+
+
+    flex-basis: 600px;
+
+
+}
+
+#produktside .shop_knap_produkt {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #F7C3BB;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+    z-index: 1000;
+    color: white;
+    background-color: #F7C3BB;
+
+
+}
+
+#produktside .shop_knap_produkt:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+#produktside h1 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+    text-align: right;
+}
+
+#produktside h2 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 4vw;
+    text-align: left;
+}
+
+#produktside h3 {
+    font-weight: 200;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 5vw;
+    margin: 0;
+    text-align: left;
+}
+
+#produktside p {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3vw;
+
+    text-align: left;
+}
 
 
 
@@ -1859,6 +1952,93 @@ iframe {
     /*-------------produkt-----------------*/
 
 
+
+    #produktside {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+
+    #produktside .fotos {
+        flex-direction: column;
+
+        flex-basis: 800px;
+    }
+
+    #produktside img {
+
+        padding-bottom: 20px;
+        width: 75%;
+    }
+
+    #produktside .text {
+
+
+        flex-basis: 600px;
+
+
+    }
+
+    #produktside .shop_knap_produkt {
+        padding: 5px 10px 5px 10px;
+        border: 1px solid #F7C3BB;
+        width: 120px;
+        text-align: center;
+        margin: 0;
+        font-size: 1.3rem;
+        font-family: 'Tenor Sans', sans-serif;
+        margin: auto;
+        z-index: 1000;
+        color: white;
+        background-color: #F7C3BB;
+
+
+    }
+
+    #produktside .shop_knap_produkt:hover {
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+
+    #produktside h1 {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 2vw;
+        font-weight: 300;
+        text-align: right;
+    }
+
+    #produktside h2 {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 2vw;
+        text-align: left;
+    }
+
+    #produktside h3 {
+        font-weight: 200;
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 2.5vw;
+        margin: 0;
+        text-align: left;
+    }
+
+    #produktside p {
+
+        font-family: 'Tenor Sans',
+            sans-serif;
+        font-size: 1.25vw;
+
+        text-align: left;
+    }
 
 
 
