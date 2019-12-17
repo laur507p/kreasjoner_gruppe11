@@ -1408,6 +1408,11 @@ iframe {
 
 @media only screen and (min-width: 600px) {
 
+
+
+
+
+
     /**--------NAV---------*/
 
     #menuknap {
@@ -1432,6 +1437,46 @@ iframe {
         background-color: transparent;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*------ HAANDVAERKERE---------*/
     .shop_knap {
@@ -1470,6 +1515,42 @@ iframe {
         height: 350px;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**------SHOP--------*/
 
     #shop .sectionwrapper {
@@ -1480,6 +1561,61 @@ iframe {
     #shop .produkt {
         flex-basis: 300px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1634,6 +1770,17 @@ iframe {
         background-color: white;
         color: black;
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
