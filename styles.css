@@ -26,7 +26,8 @@ header img {
 
 }
 
-img {
+img,
+video {
     width: 100%;
 }
 
@@ -858,8 +859,9 @@ img {
 }
 
 #om_os .splash_om_os {
-    background-image: url(billeder/1.jpg);
-    height: 40vw;
+    background-image: url(pat_landscape.png);
+    background-size: cover;
+    height: 31.25vw;
     width: 100vw;
 }
 
@@ -2228,11 +2230,7 @@ iframe {
         text-align: left;
     }
 
-    #om_os .splash_om_os {
-        background-image: url(billeder/1.jpg);
-        height: 40vw;
-        width: 100vw;
-    }
+
 
     #video video {
         padding: 20px;
