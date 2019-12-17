@@ -220,6 +220,7 @@ header {
 footer .col {
     flex-basis: 200px;
     padding: 20px;
+    margin-right: 20px;
 
 }
 
@@ -227,7 +228,14 @@ footer .sectionwrapper {
     background-color: #f7c3bb;
     font-family: 'Tenor Sans', sans-serif;
     justify-content: flex-start;
-    padding-left: 10vw;
+    padding-left: 5vw;
+}
+
+footer h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.3rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 
