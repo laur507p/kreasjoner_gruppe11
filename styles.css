@@ -787,7 +787,7 @@ img {
 
 }
 
-#
+
 /*-------------- #OM_OS -----------------*/
 
 #om_os1 .text {
@@ -865,12 +865,13 @@ img {
 
 #video video {
     padding: 20px;
+
 }
 
-
-
-
-
+#om_os1,
+#om_os2 {
+    display: flex;
+}
 
 
 
@@ -2159,3 +2160,79 @@ iframe {
 
 
     /**------OM OS--------*/
+    #om_os1 .text {
+        flex-basis: 500px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    #om_os1 .image {
+        flex-basis: 500px;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    #om_os h1 {
+        font-size: 5rem;
+        font-family: 'Tenor Sans', sans-serif;
+        padding-left: 20px;
+        text-align: center;
+
+
+    }
+
+
+    #om_os p {
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+
+    }
+
+    #om_os1 .col {
+        flex-basis: 1000px;
+
+    }
+
+    #om_os1 .sectionwrapper {
+        width: 1000px;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+
+    #om_os h2 {
+        font-size: 2rem;
+        font-family: 'Tenor Sans', sans-serif;
+        padding: 20px;
+        text-align: left;
+        margin: 0;
+
+    }
+
+
+
+
+    #om_os2 .sectionwrapper {
+        width: 1000px;
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
+
+
+    }
+
+    #om_os2 h2 {
+        text-align: left;
+    }
+
+    #om_os .splash_om_os {
+        background-image: url(billeder/1.jpg);
+        height: 40vw;
+        width: 100vw;
+    }
+
+    #video video {
+        padding: 20px;
+    }
