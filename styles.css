@@ -393,7 +393,7 @@ img {
 
 .shop_knap_forside {
     padding: 5px 10px 5px 10px;
-    border: 1px solid;
+    border: 1px solid white;
     width: 120px;
     text-align: center;
     margin: 0;
@@ -401,6 +401,8 @@ img {
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
     z-index: 1000;
+    color: white;
+
 }
 
 .shop_knap_forside:hover {
@@ -409,9 +411,19 @@ img {
     color: black;
 }
 
+#forside a {
+    text-decoration: none;
+}
 
+#forside .shop_knap {
+    color: black;
 
+}
 
+#forside .shop_knap:hover {
+    color: white;
+
+}
 
 
 
@@ -925,10 +937,14 @@ img {
     margin: auto;
     background-color: #f7c3bb;
     padding: 20px;
+    width: 100%;
+    height: 55%;
 }
 
 iframe {
     margin: auto;
+    width: 100%;
+    height: 50%;
 }
 
 
@@ -938,16 +954,98 @@ iframe {
     justify-content: center;
 }
 
+#kontakt .shop_knap_kontakt {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #F7C3BB;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+    z-index: 1000;
+    color: white;
+    background-color: #F7C3BB;
 
 
+}
+
+#kontakt a {
+    text-decoration: none
+}
+
+#kontakt .shop_knap_kontakt:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 
 
+#kontakt h1 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 6.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+#kontakt h2 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+#kontakt h3 {
+    font-weight: 600;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    margin: 0;
+    text-align: left;
+}
+
+#kontakt p {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+#kontakt img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#kontakt .col2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
+#kontakt .col_wide input {
+    width: 100%;
+    background-color: #F7DCD3;
+    border: none;
+    padding: 5px;
+}
 
 
+#kontakt .col_wide {
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
-
+#kontakt form {
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 5px;
+}
 
 
 
@@ -1366,6 +1464,10 @@ iframe {
     background-color: #F7C3BB;
 
 
+}
+
+#produktside a {
+    text-decoration: none
 }
 
 #produktside .shop_knap_produkt:hover {
