@@ -23,6 +23,7 @@ header img {
     width: 50vw;
     left: 25vw;
     position: fixed;
+    padding: 10px;
 
 }
 
@@ -133,6 +134,7 @@ nav a {
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 20px;
+    display: block;
 
 }
 
@@ -141,7 +143,7 @@ nav a:hover {
 }
 
 nav {
-    margin: 0px 0 10px 0;
+    margin: 10px 0 10px 0;
     position: fixed;
     top: 2vw;
     left: 20vw;
@@ -172,6 +174,7 @@ header {
     transition: transform .3s;
     transform-origin: top left;
     background-color: #f7c3bb;
+    width: 100vw;
 }
 
 
@@ -1132,30 +1135,42 @@ iframe {
 
 
 /*-------------- #CHECKOUT -----------------*/
-
+#checkout .sectionwrapper {
+    margin: 0 100px 0 100px;
+}
 
 #checkout .col_wide {
-    flex-basis: 500px;
+    flex-grow: 1;
+    flex-basis: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+    margin: 20px;
 }
 
 #checkout .col_narrow {
+    flex-grow: 1;
     flex-basis: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     border: 1px solid #f7c3bb;
+    padding: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+
 }
 
 #checkout .col {
     flex-basis: 350px;
+
 }
 
 #checkout .col_narrow .col1 {
     flex-basis: 100px;
     padding: 20px;
     margin: 20px;
+    flex-grow: 1;
 }
 
 #checkout .col_narrow .col2 {
@@ -1163,6 +1178,7 @@ iframe {
     text-align: right;
     padding: 20px;
     margin: 20px;
+    flex-grow: 1;
 }
 
 #checkout h1 {
@@ -1204,6 +1220,17 @@ iframe {
 
 .textalignright {
     text-align: right;
+}
+
+#checkout .col-lg {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+#checkout .knap {
+    background-color: #f7c3bb;
+    width: 400px;
+    display: inline-block;
 }
 
 
@@ -1613,6 +1640,10 @@ iframe {
     #menu {
         background-color: transparent;
 
+    }
+
+    nav a {
+        display: inline;
     }
 
 
