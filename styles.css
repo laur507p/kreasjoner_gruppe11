@@ -1352,13 +1352,7 @@ iframe {
     width: 75%;
 }
 
-#produktside .text {
-
-
-    flex-basis: 600px;
-
-
-}
+#produktside .text {}
 
 #produktside .shop_knap_produkt {
     padding: 5px 10px 5px 10px;
@@ -1971,10 +1965,15 @@ iframe {
 
     }
 
+
+
+
+
     #produktside .fotos {
         flex-direction: column;
-
         flex-basis: 800px;
+        overflow-x: hidden;
+
     }
 
     #produktside img {
