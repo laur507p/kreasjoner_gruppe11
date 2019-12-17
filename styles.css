@@ -27,7 +27,8 @@ header img {
 
 }
 
-img {
+img,
+video {
     width: 100%;
 }
 
@@ -396,7 +397,7 @@ img {
 
 .shop_knap_forside {
     padding: 5px 10px 5px 10px;
-    border: 1px solid;
+    border: 1px solid white;
     width: 120px;
     text-align: center;
     margin: 0;
@@ -404,6 +405,8 @@ img {
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
     z-index: 1000;
+    color: white;
+
 }
 
 .shop_knap_forside:hover {
@@ -412,9 +415,19 @@ img {
     color: black;
 }
 
+#forside a {
+    text-decoration: none;
+}
 
+#forside .shop_knap {
+    color: black;
 
+}
 
+#forside .shop_knap:hover {
+    color: white;
+
+}
 
 
 
@@ -794,15 +807,17 @@ img {
 /*-------------- #OM_OS -----------------*/
 
 #om_os1 .text {
-    flex-basis: 500px;
+    flex-basis: 600px;
     flex-wrap: wrap;
     padding: 20px;
+    padding-top: 10px;
 }
 
 #om_os1 .image {
-    flex-basis: 500px;
+    flex-basis: 600px;
     flex-wrap: wrap;
     padding: 20px;
+
 }
 
 #om_os h1 {
@@ -823,12 +838,12 @@ img {
 }
 
 #om_os1 .col {
-    flex-basis: 1000px;
+    flex-basis: 1200px;
 
 }
 
 #om_os1 .sectionwrapper {
-    width: 1000px;
+    /*    width: 1000px;*/
     justify-content: center;
     margin: auto;
 
@@ -841,14 +856,14 @@ img {
     padding: 20px;
     text-align: left;
     margin: 0;
-
+    padding-bottom: 0;
 }
 
 
 
 
 #om_os2 .sectionwrapper {
-    width: 1000px;
+    /*    width: 1000px;*/
     justify-content: center;
     margin: auto;
     padding: 20px;
@@ -858,18 +873,22 @@ img {
 
 #om_os2 h2 {
     text-align: left;
+    padding-left: 0;
 }
 
 #om_os .splash_om_os {
-    background-image: url(billeder/1.jpg);
-    height: 40vw;
+    background-image: url(pat_landscape.png);
+    background-size: cover;
+    height: 31.25vw;
     width: 100vw;
 }
 
+/*
 #video video {
     padding: 20px;
 
 }
+*/
 
 #om_os1,
 #om_os2 {
@@ -928,10 +947,14 @@ img {
     margin: auto;
     background-color: #f7c3bb;
     padding: 20px;
+    width: 100%;
+    height: 55%;
 }
 
 iframe {
     margin: auto;
+    width: 100%;
+    height: 50%;
 }
 
 
@@ -941,16 +964,98 @@ iframe {
     justify-content: center;
 }
 
+#kontakt .shop_knap_kontakt {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #F7C3BB;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+    z-index: 1000;
+    color: white;
+    background-color: #F7C3BB;
 
 
+}
+
+#kontakt a {
+    text-decoration: none
+}
+
+#kontakt .shop_knap_kontakt:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 
 
+#kontakt h1 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 6.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+#kontakt h2 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+#kontakt h3 {
+    font-weight: 600;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    margin: 0;
+    text-align: left;
+}
+
+#kontakt p {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+#kontakt img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#kontakt .col2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
+#kontakt .col_wide input {
+    width: 100%;
+    background-color: #F7DCD3;
+    border: none;
+    padding: 5px;
+}
 
 
+#kontakt .col_wide {
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
-
+#kontakt form {
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 5px;
+}
 
 
 
@@ -1377,13 +1482,7 @@ iframe {
     width: 75%;
 }
 
-#produktside .text {
-
-
-    flex-basis: 600px;
-
-
-}
+#produktside .text {}
 
 #produktside .shop_knap_produkt {
     padding: 5px 10px 5px 10px;
@@ -1399,6 +1498,10 @@ iframe {
     background-color: #F7C3BB;
 
 
+}
+
+#produktside a {
+    text-decoration: none
 }
 
 #produktside .shop_knap_produkt:hover {
@@ -2000,10 +2103,15 @@ iframe {
 
     }
 
+
+
+
+
     #produktside .fotos {
         flex-direction: column;
-
         flex-basis: 800px;
+        overflow-x: hidden;
+
     }
 
     #produktside img {
@@ -2193,16 +2301,12 @@ iframe {
 
     /**------OM OS--------*/
     #om_os1 .text {
-        flex-basis: 500px;
+        flex-basis: 600px;
         flex-wrap: wrap;
         padding: 20px;
     }
 
-    #om_os1 .image {
-        flex-basis: 500px;
-        flex-wrap: wrap;
-        padding: 20px;
-    }
+
 
     #om_os h1 {
         font-size: 5rem;
@@ -2214,20 +2318,15 @@ iframe {
     }
 
 
-    #om_os p {
-        font-size: 1rem;
-        font-family: 'Open Sans', sans-serif;
-        margin: 0px;
 
-    }
 
     #om_os1 .col {
-        flex-basis: 1000px;
+        flex-basis: 1200px;
 
     }
 
     #om_os1 .sectionwrapper {
-        width: 1000px;
+        /*        width: 1000px;*/
         justify-content: center;
         margin: auto;
 
@@ -2237,9 +2336,10 @@ iframe {
     #om_os h2 {
         font-size: 2rem;
         font-family: 'Tenor Sans', sans-serif;
-        padding: 20px;
+        padding: 0;
         text-align: left;
-        margin: 0;
+        margin-top: 60px;
+        margin-left: 20px;
 
     }
 
@@ -2247,7 +2347,7 @@ iframe {
 
 
     #om_os2 .sectionwrapper {
-        width: 1000px;
+        width: 1200px;
         justify-content: center;
         margin: auto;
         padding: 20px;
@@ -2257,14 +2357,18 @@ iframe {
 
     #om_os2 h2 {
         text-align: left;
+        margin-bottom: 20px;
     }
 
-    #om_os .splash_om_os {
-        background-image: url(billeder/1.jpg);
-        height: 40vw;
-        width: 100vw;
-    }
+
 
     #video video {
-        padding: 20px;
+        padding: 0px;
+    }
+
+    #om_os p {
+        font-size: 1.3rem;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+
     }
