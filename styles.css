@@ -44,8 +44,8 @@ video {
 .icons img {
     width: 42px;
     position: relative;
-    left: 88vw;
-    top: 2.2vw;
+    left: 78vw;
+    top: 5.5vw;
 
 }
 
@@ -161,6 +161,7 @@ nav {
     left: 20vw;
     display: flex;
     flex-direction: column;
+    height: 106px;
 
 }
 
@@ -547,6 +548,7 @@ img {
 
 #shop #produkter {
     display: flex;
+    margin-top: -5vw;
 }
 
 
@@ -606,6 +608,22 @@ img {
     color: black;
 }
 
+
+#filter {
+    display: block;
+    font-family: 'Tenor Sans', sans-serif;
+    display: flex;
+    position: relative;
+    top: -15vw;
+    left: 5vw;
+}
+
+#filter .filtertext {
+    position: relative;
+    left: 5vw;
+    top: -2.5vw;
+
+}
 
 
 
@@ -1951,6 +1969,15 @@ iframe {
     }
 
 
+    .icons img {
+        width: 42px;
+        position: relative;
+        left: 89vw;
+        top: 2vw;
+
+    }
+
+
 
 
 
@@ -2023,7 +2050,7 @@ iframe {
 
     #splash_haandvaerker {
 
-        height: 600px;
+        height: 450px;
     }
 
     #splash_haandvaerker .col {
@@ -2057,6 +2084,10 @@ iframe {
     #haandvaerkere .chandini {
         position: relative;
         top: 0px;
+    }
+
+    #splash_haandvaerker .col {
+        flex-basis: 300px;
     }
 
 
@@ -2121,6 +2152,21 @@ iframe {
 
     }
 
+    #filter {
+        display: block;
+        font-family: 'Tenor Sans', sans-serif;
+        display: flex;
+        position: relative;
+        top: -20vw;
+        left: 12vw;
+    }
+
+    #filter .filtertext {
+        position: relative;
+        left: 2vw;
+        top: -0.8vw;
+
+    }
 
 
 
@@ -2409,6 +2455,10 @@ iframe {
         font-size: 1.25vw;
 
         text-align: left;
+    }
+
+    #produktside {
+        margin: 0 100px 0 100px;
     }
 
 
@@ -3150,43 +3200,43 @@ iframe {
         flex-basis: 700px;
         margin-top: 45px;
     }
-}
 
-#kontakt h1 {
-    font-size: 5vw;
+    #kontakt h1 {
+        font-size: 5vw;
 
-}
+    }
 
-#kontakt h2 {
-    font-size: 1.5vw;
-    font-weight: 500;
+    #kontakt h2 {
+        font-size: 1.5vw;
+        font-weight: 500;
 
-}
+    }
 
-#kontakt p {
-    font-size: 1.5vw;
-}
+    #kontakt p {
+        font-size: 1.5vw;
+    }
 
-#kontakt h3 {
-    font-size: 2vw;
-}
+    #kontakt h3 {
+        font-size: 2vw;
+    }
 
-#kontakt .col1 h1 {
-    text-align: right;
-    position: relative;
-    left: 170px;
-}
+    #kontakt .col1 h1 {
+        text-align: right;
+        position: relative;
+        left: 170px;
+    }
 
-#kontakt .col_wide {
-    margin-top: 35px;
-}
+    #kontakt .col_wide {
+        margin-top: 35px;
+    }
 
-#kontakt .shop_knap_kontakt {
-    font-size: 2rem;
-    width: 130px;
-}
+    #kontakt .shop_knap_kontakt {
+        font-size: 2rem;
+        width: 130px;
+    }
 
-kontakt .col2 {
-    display: flex;
+    kontakt .col2 {
+        display: flex;
 
+    }
 }
