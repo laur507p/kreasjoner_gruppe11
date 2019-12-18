@@ -692,7 +692,8 @@ img {
     margin-top: 15px;
 }
 
-#splash_haandvaerker li {
+#splash_haandvaerker li,
+#splash_haandvaerker a {
     font-family: 'Tenor Sans', sans-serif;
     color: black;
     font-size: 1rem;
@@ -736,7 +737,7 @@ img {
     flex-basis: 600px;
     order: 2;
     position: relative;
-    top: -40vw;
+    top: -60vw;
 }
 
 #haandvaerker1 .image {
@@ -1798,17 +1799,17 @@ iframe {
 
     #haandvaerker1 h1 {
         position: relative;
-        left: 25vw;
+        left: 15vw;
     }
 
     #haandvaerker2 h1 {
         position: relative;
-        right: 5vw;
+        right: 16vw;
     }
 
     #haandvaerker3 h1 {
         position: relative;
-        left: 15vw;
+        left: 10vw;
     }
 
     #haandvaerker1 .text,
