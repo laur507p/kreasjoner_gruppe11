@@ -524,6 +524,7 @@ img {
 
 
 
+/*
 #splash_shop {
     background-image: url(thumbnail_splash.png);
     width: 100vw;
@@ -533,6 +534,7 @@ img {
     margin-bottom: 50px;
 
 }
+*/
 
 #shop #produkter {
     display: flex;
@@ -541,7 +543,9 @@ img {
 #shop .sectionwrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 0px;
+    position: relative;
+    top: -60px;
 
 }
 
@@ -569,10 +573,10 @@ img {
 
 #splash_shop h1 {
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 2.5rem;
+    font-size: 6vw;
     position: relative;
     color: white;
-    top: 15vw;
+    top: -100px;
     font-weight: 100;
     text-align: center;
 }
@@ -1896,6 +1900,8 @@ iframe {
     #shop .sectionwrapper {
         margin-left: 10vw;
         margin-right: 10vw;
+        position: relative;
+        top: -200px;
     }
 
     #shop .produkt {
@@ -1903,9 +1909,10 @@ iframe {
     }
 
     #splash_shop h1 {
-        font-size: 5rem;
+        font-size: 6vw;
+        position: relative;
+        top: -370px;
     }
-
 
 
 
