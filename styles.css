@@ -1136,6 +1136,7 @@ iframe {
     flex-basis: 500px;
     flex-grow: 1;
     background-color: #f7c3bb;
+    padding: 10px;
 }
 
 #kurv .col_narrow {
@@ -1144,6 +1145,13 @@ iframe {
     background-color: #f7c3bb;
 }
 
+#kurv p {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#kurv .kurv_header {
+    border-bottom: 1px solid black;
+}
 
 
 
