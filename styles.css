@@ -161,6 +161,7 @@ nav {
     left: 20vw;
     display: flex;
     flex-direction: column;
+    height: 106px;
 
 }
 
@@ -2411,6 +2412,10 @@ iframe {
         text-align: left;
     }
 
+    #produktside {
+        margin: 0 100px 0 100px;
+    }
+
 
 
 
@@ -3150,43 +3155,43 @@ iframe {
         flex-basis: 700px;
         margin-top: 45px;
     }
-}
 
-#kontakt h1 {
-    font-size: 5vw;
+    #kontakt h1 {
+        font-size: 5vw;
 
-}
+    }
 
-#kontakt h2 {
-    font-size: 1.5vw;
-    font-weight: 500;
+    #kontakt h2 {
+        font-size: 1.5vw;
+        font-weight: 500;
 
-}
+    }
 
-#kontakt p {
-    font-size: 1.5vw;
-}
+    #kontakt p {
+        font-size: 1.5vw;
+    }
 
-#kontakt h3 {
-    font-size: 2vw;
-}
+    #kontakt h3 {
+        font-size: 2vw;
+    }
 
-#kontakt .col1 h1 {
-    text-align: right;
-    position: relative;
-    left: 170px;
-}
+    #kontakt .col1 h1 {
+        text-align: right;
+        position: relative;
+        left: 170px;
+    }
 
-#kontakt .col_wide {
-    margin-top: 35px;
-}
+    #kontakt .col_wide {
+        margin-top: 35px;
+    }
 
-#kontakt .shop_knap_kontakt {
-    font-size: 2rem;
-    width: 130px;
-}
+    #kontakt .shop_knap_kontakt {
+        font-size: 2rem;
+        width: 130px;
+    }
 
-kontakt .col2 {
-    display: flex;
+    kontakt .col2 {
+        display: flex;
 
+    }
 }
