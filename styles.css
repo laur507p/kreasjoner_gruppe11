@@ -157,7 +157,7 @@ nav a:hover {
 nav {
     margin: 10px 0 10px 0;
     position: fixed;
-    top: 2vw;
+    top: 3vw;
     left: 20vw;
     display: flex;
     flex-direction: column;
@@ -1533,7 +1533,7 @@ iframe {
 
 }
 
-}
+
 
 #checkout h1 {
     display: block;
@@ -2931,7 +2931,7 @@ iframe {
     }
 
     #kurv .col_varer2 {
-        flex-basis: 100;
+        flex-basis: 100px;
         flex-grow: 1;
         display: flex;
         padding: 10px;
