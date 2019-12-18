@@ -601,7 +601,10 @@ img {
 }
 
 
-
+#produkter a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -2081,9 +2084,9 @@ iframe {
 
 
     #splash_shop h1 {
-        font-size: 6vw;
+        font-size: 8vw;
         position: relative;
-        top: -430px;
+        top: -400px;
     }
 
     #shop a {
