@@ -743,7 +743,8 @@ img {
     line-height: 23px;
 }
 
-#splash_haandvaerker li:hover {
+#splash_haandvaerker li:hover,
+#splash_haandvaerker li a:hover {
     color: white;
 }
 
