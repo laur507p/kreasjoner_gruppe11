@@ -319,7 +319,7 @@ footer {
 .splash_text {
 
     position: relative;
-    top: -40vw;
+    top: -30vw;
     color: white;
     border: white;
 }
@@ -404,6 +404,7 @@ img {
 
 #forside .text {
     flex-basis: 400px;
+
 }
 
 .shop_knap_forside {
@@ -440,8 +441,12 @@ img {
 
 }
 
+#forside .splash_forside .splash_text p {
 
+    margin-top: 0px;
+    margin-bottom: 15px;
 
+}
 
 
 
@@ -1946,7 +1951,7 @@ iframe {
     #forside .splash_text {
 
         position: relative;
-        top: -30vw;
+        top: -23vw;
         color: white;
         border: white;
         align-self: center;
@@ -2093,6 +2098,12 @@ iframe {
         color: black;
     }
 
+    #forside .splash_forside .splash_text p {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
 
 
 
