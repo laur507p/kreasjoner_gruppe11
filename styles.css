@@ -864,7 +864,7 @@ img {
 #om_os p {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
+    margin-top: 10px;
 
 }
 
@@ -2436,12 +2436,7 @@ iframe {
         padding: 0px;
     }
 
-    #om_os p {
-        font-size: 1.3rem;
-        font-family: 'Open Sans', sans-serif;
-        margin: 0px;
 
-    }
 
 
     #om_os1,
