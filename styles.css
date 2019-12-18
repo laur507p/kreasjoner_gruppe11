@@ -1171,6 +1171,63 @@ iframe {
     border-bottom: 1px solid black;
 }
 
+#kurv .varer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#kurv .col_varer {
+    flex-basis: 100px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+
+}
+
+/*
+#kurv img {
+    width: 50%;
+}
+*/
+
+
+#kurv .varer_title {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    padding: 0 0 10px 10px;
+}
+
+#kurv .subtotal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#kurv .col_varer1 {
+    flex-basis: 250px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+
+}
+
+#kurv .col_varer2 {
+    flex-basis: 250px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+}
+
+#kurv .col_varer2 p {
+    text-align: right;
+}
+
+
 
 
 
@@ -2446,8 +2503,7 @@ iframe {
         flex-basis: 400px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 20px;
+        justify-content: center;
 
     }
 
@@ -2455,7 +2511,7 @@ iframe {
         flex-grow: 1;
         flex-basis: 200px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         border: 1px solid #f7c3bb;
         padding: 20px;
 
@@ -2495,7 +2551,7 @@ iframe {
     }
 
     #checkout .col_wide input {
-        width: 100%;
+        width: 40vw;
         background-color: #f7c3bb;
         border: none;
         padding: 5px;
@@ -2532,7 +2588,7 @@ iframe {
 
     #checkout .knap {
         background-color: #f7c3bb;
-        width: 400px;
+        width: 30vw;
         display: inline-block;
         font-size: 1.5rem;
         text-align: center;
@@ -2596,6 +2652,7 @@ iframe {
 
 
     /*----------- KURV -------------*/
+
 
 
 
