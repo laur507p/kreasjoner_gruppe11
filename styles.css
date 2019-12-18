@@ -524,6 +524,7 @@ img {
 
 
 
+/*
 #splash_shop {
     background-image: url(thumbnail_splash.png);
     width: 100vw;
@@ -533,6 +534,7 @@ img {
     margin-bottom: 50px;
 
 }
+*/
 
 #shop #produkter {
     display: flex;
@@ -541,7 +543,9 @@ img {
 #shop .sectionwrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 0px;
+    position: relative;
+    top: -60px;
 
 }
 
@@ -569,10 +573,10 @@ img {
 
 #splash_shop h1 {
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 2.5rem;
+    font-size: 6vw;
     position: relative;
     color: white;
-    top: 15vw;
+    top: -100px;
     font-weight: 100;
     text-align: center;
 }
@@ -1170,6 +1174,63 @@ iframe {
 #kurv .kurv_header {
     border-bottom: 1px solid black;
 }
+
+#kurv .varer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#kurv .col_varer {
+    flex-basis: 100px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+
+}
+
+/*
+#kurv img {
+    width: 50%;
+}
+*/
+
+
+#kurv .varer_title {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    padding: 0 0 10px 10px;
+}
+
+#kurv .subtotal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#kurv .col_varer1 {
+    flex-basis: 250px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+
+}
+
+#kurv .col_varer2 {
+    flex-basis: 250px;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+}
+
+#kurv .col_varer2 p {
+    text-align: right;
+}
+
 
 
 
@@ -1896,6 +1957,8 @@ iframe {
     #shop .sectionwrapper {
         margin-left: 10vw;
         margin-right: 10vw;
+        position: relative;
+        top: -200px;
     }
 
     #shop .produkt {
@@ -1903,9 +1966,10 @@ iframe {
     }
 
     #splash_shop h1 {
-        font-size: 5rem;
+        font-size: 6vw;
+        position: relative;
+        top: -370px;
     }
-
 
 
 
@@ -2446,8 +2510,7 @@ iframe {
         flex-basis: 400px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 20px;
+        justify-content: center;
 
     }
 
@@ -2455,7 +2518,7 @@ iframe {
         flex-grow: 1;
         flex-basis: 200px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         border: 1px solid #f7c3bb;
         padding: 20px;
 
@@ -2495,7 +2558,7 @@ iframe {
     }
 
     #checkout .col_wide input {
-        width: 100%;
+        width: 40vw;
         background-color: #f7c3bb;
         border: none;
         padding: 5px;
@@ -2532,7 +2595,7 @@ iframe {
 
     #checkout .knap {
         background-color: #f7c3bb;
-        width: 400px;
+        width: 30vw;
         display: inline-block;
         font-size: 1.5rem;
         text-align: center;
@@ -2596,6 +2659,7 @@ iframe {
 
 
     /*----------- KURV -------------*/
+
 
 
 
