@@ -540,6 +540,8 @@ img {
     display: flex;
 }
 
+
+
 #shop .sectionwrapper {
     display: flex;
     flex-direction: row;
@@ -558,6 +560,8 @@ img {
     margin: 20px;
 
 }
+
+
 
 #shop .text {
     font-family: 'Tenor Sans', sans-serif;
@@ -1963,14 +1967,24 @@ iframe {
 
     #shop .produkt {
         flex-basis: 300px;
+
     }
+
+
 
     #splash_shop h1 {
         font-size: 6vw;
         position: relative;
-        top: -370px;
+        top: -430px;
     }
 
+    #shop a {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 340px;
+        flex-direction: column;
+
+    }
 
 
 
