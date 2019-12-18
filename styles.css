@@ -702,7 +702,7 @@ img {
 
 
 #splash_haandvaerker {
-    height: 70vw;
+    height: 130vw;
     width: 100vw;
     background-color: #f7c3bb;
     display: flex;
@@ -712,7 +712,7 @@ img {
 }
 
 #splash_haandvaerker .col {
-    flex-basis: 250px;
+    flex-basis: 150px;
     margin-top: 15px;
 }
 
@@ -814,10 +814,18 @@ img {
 #haandvaerkere .header {
     text-align: center;
     position: relative;
-    top: -56vw;
+    top: -80vw;
 }
 
+#haandvaerkere .etui {
+    position: relative;
+    top: -25px;
+}
 
+#haandvaerkere .chandini {
+    position: relative;
+    top: -70px;
+}
 
 .shop_knap {
     padding: 5px 10px 5px 10px;
@@ -2014,7 +2022,8 @@ iframe {
     }
 
     #splash_haandvaerker {
-        height: 450px;
+
+        height: 600px;
     }
 
     #splash_haandvaerker .col {
@@ -2029,11 +2038,26 @@ iframe {
         list-style-type: none;
         line-height: 28px;
         font-size: 1.2rem;
+
     }
 
 
 
+    #haandvaerkere .header {
+        text-align: center;
+        position: relative;
+        top: 0vw;
+    }
 
+    #haandvaerkere .etui {
+        position: relative;
+        top: 0px;
+    }
+
+    #haandvaerkere .chandini {
+        position: relative;
+        top: 0px;
+    }
 
 
 
