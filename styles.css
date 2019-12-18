@@ -692,7 +692,8 @@ img {
     margin-top: 15px;
 }
 
-#splash_haandvaerker li {
+#splash_haandvaerker li,
+#splash_haandvaerker a {
     font-family: 'Tenor Sans', sans-serif;
     color: black;
     font-size: 1rem;
@@ -736,7 +737,7 @@ img {
     flex-basis: 600px;
     order: 2;
     position: relative;
-    top: -40vw;
+    top: -60vw;
 }
 
 #haandvaerker1 .image {
@@ -840,6 +841,10 @@ img {
 
 }
 
+#om_os {
+    position: relative;
+    top: -80px;
+}
 
 #om_os p {
     font-size: 1rem;
@@ -892,6 +897,7 @@ img {
     background-size: cover;
     height: 31.25vw;
     width: 100vw;
+
 }
 
 /*
@@ -1135,6 +1141,7 @@ iframe {
     flex-basis: 500px;
     flex-grow: 1;
     background-color: #f7c3bb;
+    padding: 10px;
 }
 
 #kurv .col_narrow {
@@ -1143,6 +1150,13 @@ iframe {
     background-color: #f7c3bb;
 }
 
+#kurv p {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#kurv .kurv_header {
+    border-bottom: 1px solid black;
+}
 
 
 
@@ -1798,17 +1812,17 @@ iframe {
 
     #haandvaerker1 h1 {
         position: relative;
-        left: 25vw;
+        left: 15vw;
     }
 
     #haandvaerker2 h1 {
         position: relative;
-        right: 5vw;
+        right: 16vw;
     }
 
     #haandvaerker3 h1 {
         position: relative;
-        left: 15vw;
+        left: 10vw;
     }
 
     #haandvaerker1 .text,
