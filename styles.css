@@ -814,6 +814,10 @@ img {
 
 }
 
+#om_os {
+    position: relative;
+    top: -80px;
+}
 
 #om_os p {
     font-size: 1rem;
@@ -866,6 +870,7 @@ img {
     background-size: cover;
     height: 31.25vw;
     width: 100vw;
+
 }
 
 /*
