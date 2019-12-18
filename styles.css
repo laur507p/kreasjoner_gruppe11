@@ -44,8 +44,8 @@ video {
 .icons img {
     width: 42px;
     position: relative;
-    left: 88vw;
-    top: 2.2vw;
+    left: 78vw;
+    top: 5.5vw;
 
 }
 
@@ -548,6 +548,7 @@ img {
 
 #shop #produkter {
     display: flex;
+    margin-top: -5vw;
 }
 
 
@@ -607,6 +608,22 @@ img {
     color: black;
 }
 
+
+#filter {
+    display: block;
+    font-family: 'Tenor Sans', sans-serif;
+    display: flex;
+    position: relative;
+    top: -15vw;
+    left: 5vw;
+}
+
+#filter .filtertext {
+    position: relative;
+    left: 5vw;
+    top: -2.5vw;
+
+}
 
 
 
@@ -1952,6 +1969,15 @@ iframe {
     }
 
 
+    .icons img {
+        width: 42px;
+        position: relative;
+        left: 89vw;
+        top: 2vw;
+
+    }
+
+
 
 
 
@@ -2024,7 +2050,7 @@ iframe {
 
     #splash_haandvaerker {
 
-        height: 600px;
+        height: 450px;
     }
 
     #splash_haandvaerker .col {
@@ -2058,6 +2084,10 @@ iframe {
     #haandvaerkere .chandini {
         position: relative;
         top: 0px;
+    }
+
+    #splash_haandvaerker .col {
+        flex-basis: 300px;
     }
 
 
@@ -2122,6 +2152,21 @@ iframe {
 
     }
 
+    #filter {
+        display: block;
+        font-family: 'Tenor Sans', sans-serif;
+        display: flex;
+        position: relative;
+        top: -20vw;
+        left: 12vw;
+    }
+
+    #filter .filtertext {
+        position: relative;
+        left: 2vw;
+        top: -0.8vw;
+
+    }
 
 
 
