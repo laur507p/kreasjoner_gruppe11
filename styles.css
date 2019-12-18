@@ -23,6 +23,7 @@ header img {
     width: 50vw;
     left: 25vw;
     position: fixed;
+    padding: 10px;
 
 }
 
@@ -40,6 +41,17 @@ video {
     height: 106px;
 }
 
+.icons img {
+    width: 42px;
+    position: relative;
+    left: 88vw;
+    top: 2.2vw;
+
+}
+
+.cart {
+    width: 50px;
+}
 
 
 
@@ -134,6 +146,7 @@ nav a {
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 20px;
+    display: block;
 
 }
 
@@ -142,7 +155,7 @@ nav a:hover {
 }
 
 nav {
-    margin: 0px 0 10px 0;
+    margin: 10px 0 10px 0;
     position: fixed;
     top: 2vw;
     left: 20vw;
@@ -173,6 +186,7 @@ header {
     transition: transform .3s;
     transform-origin: top left;
     background-color: #f7c3bb;
+    width: 100vw;
 }
 
 
@@ -394,7 +408,7 @@ img {
 
 .shop_knap_forside {
     padding: 5px 10px 5px 10px;
-    border: 1px solid;
+    border: 1px solid white;
     width: 120px;
     text-align: center;
     margin: 0;
@@ -402,6 +416,8 @@ img {
     font-family: 'Tenor Sans', sans-serif;
     margin: auto;
     z-index: 1000;
+    color: white;
+
 }
 
 .shop_knap_forside:hover {
@@ -410,9 +426,19 @@ img {
     color: black;
 }
 
+#forside a {
+    text-decoration: none;
+}
 
+#forside .shop_knap {
+    color: black;
 
+}
 
+#forside .shop_knap:hover {
+    color: white;
+
+}
 
 
 
@@ -937,10 +963,14 @@ img {
     margin: auto;
     background-color: #f7c3bb;
     padding: 20px;
+    width: 100%;
+    height: 55%;
 }
 
 iframe {
     margin: auto;
+    width: 100%;
+    height: 50%;
 }
 
 
@@ -950,46 +980,98 @@ iframe {
     justify-content: center;
 }
 
+#kontakt .shop_knap_kontakt {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #F7C3BB;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: auto;
+    z-index: 1000;
+    color: white;
+    background-color: #F7C3BB;
 
 
+}
+
+#kontakt a {
+    text-decoration: none
+}
+
+#kontakt .shop_knap_kontakt:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 
 
+#kontakt h1 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 6.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+#kontakt h2 {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+#kontakt h3 {
+    font-weight: 600;
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    margin: 0;
+    text-align: left;
+}
+
+#kontakt p {
+
+    font-family: 'Tenor Sans',
+        sans-serif;
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+#kontakt img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#kontakt .col2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
+#kontakt .col_wide input {
+    width: 100%;
+    background-color: #F7DCD3;
+    border: none;
+    padding: 5px;
+}
 
 
+#kontakt .col_wide {
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#kontakt form {
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 5px;
+}
 
 
 
@@ -1047,7 +1129,24 @@ iframe {
 
 /*-------------- #KURV -----------------*/
 
+#kurv .breadcrumbs {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10px;
+}
 
+#kurv .col_wide {
+    flex-basis: 500px;
+    flex-grow: 1;
+    background-color: #f7c3bb;
+}
+
+#kurv .col_narrow {
+    flex-basis: 500px;
+    flex-grow: 1;
+    background-color: #f7c3bb;
+}
 
 
 
@@ -1144,30 +1243,42 @@ iframe {
 
 
 /*-------------- #CHECKOUT -----------------*/
-
+#checkout .sectionwrapper {
+    margin: 0 100px 0 100px;
+}
 
 #checkout .col_wide {
-    flex-basis: 500px;
+    flex-grow: 1;
+    flex-basis: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+
 }
 
 #checkout .col_narrow {
+    flex-grow: 1;
     flex-basis: 200px;
     display: flex;
     justify-content: center;
     border: 1px solid #f7c3bb;
+    padding: 20px;
+
+    flex-wrap: wrap;
+
 }
 
 #checkout .col {
     flex-basis: 350px;
+
 }
 
 #checkout .col_narrow .col1 {
     flex-basis: 100px;
     padding: 20px;
     margin: 20px;
+    flex-grow: 1;
 }
 
 #checkout .col_narrow .col2 {
@@ -1175,6 +1286,7 @@ iframe {
     text-align: right;
     padding: 20px;
     margin: 20px;
+    flex-grow: 1;
 }
 
 #checkout h1 {
@@ -1204,6 +1316,7 @@ iframe {
     font-family: 'Tenor Sans', sans-serif;
     font-size: 2rem;
     text-align: center;
+    padding-top: 10px;
 }
 
 .greytext {
@@ -1216,6 +1329,20 @@ iframe {
 
 .textalignright {
     text-align: right;
+}
+
+#checkout .col-lg {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+#checkout .knap {
+    background-color: #f7c3bb;
+    width: 400px;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+
 }
 
 
@@ -1378,6 +1505,10 @@ iframe {
     background-color: #F7C3BB;
 
 
+}
+
+#produktside a {
+    text-decoration: none
 }
 
 #produktside .shop_knap_produkt:hover {
@@ -1619,6 +1750,10 @@ iframe {
     #menu {
         background-color: transparent;
 
+    }
+
+    nav a {
+        display: inline;
     }
 
 
@@ -2244,3 +2379,412 @@ iframe {
         margin: 0px;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*-------------- #CHECKOUT -----------------*/
+    #checkout .sectionwrapper {
+        margin: 0 100px 0 100px;
+    }
+
+    #checkout .col_wide {
+        flex-grow: 1;
+        flex-basis: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px;
+
+    }
+
+    #checkout .col_narrow {
+        flex-grow: 1;
+        flex-basis: 200px;
+        display: flex;
+        justify-content: flex-start;
+        border: 1px solid #f7c3bb;
+        padding: 20px;
+
+        flex-wrap: wrap;
+
+    }
+
+    #checkout .col {
+        flex-basis: 350px;
+
+    }
+
+    #checkout .col_narrow .col1 {
+        flex-basis: 100px;
+        padding: 20px;
+        margin: 20px;
+        flex-grow: 1;
+    }
+
+    #checkout .col_narrow .col2 {
+        flex-basis: 100px;
+        text-align: right;
+        padding: 20px;
+        margin: 20px;
+        flex-grow: 1;
+    }
+
+    #checkout h1 {
+        font-family: 'Tenor Sans', sans-serif;
+
+    }
+
+
+    #checkout .col_narrow p {
+        font-family: 'Tenor Sans', sans-serif;
+
+    }
+
+    #checkout .col_wide input {
+        width: 100%;
+        background-color: #f7c3bb;
+        border: none;
+        padding: 5px;
+    }
+
+    #checkout form {
+        font-family: 'Tenor Sans', sans-serif;
+        padding: 5px;
+    }
+
+    #checkout .breadcrumbs {
+        font-family: 'Tenor Sans', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .greytext {
+        color: #e0dddd;
+    }
+
+    .textalignleft {
+        text-align: left;
+    }
+
+    .textalignright {
+        text-align: right;
+    }
+
+    #checkout .col-lg {
+        flex-basis: 100px;
+        flex-grow: 2;
+    }
+
+    #checkout .knap {
+        background-color: #f7c3bb;
+        width: 400px;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*----------- KURV -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
